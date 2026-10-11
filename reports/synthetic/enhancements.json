@@ -1,0 +1,257 @@
+{
+  "schema_version": 2,
+  "source": {
+    "type": "synthetic",
+    "seed": 42
+  },
+  "configuration": {
+    "window": 252,
+    "draws": 6000,
+    "confidence": 0.99,
+    "transaction_cost_bps": 5,
+    "rebalance_every": 21
+  },
+  "estimates": {
+    "filtered_historical": {
+      "method": "filtered_historical",
+      "confidence": 0.99,
+      "horizon_days": 1,
+      "var": 0.029375035274040426,
+      "expected_shortfall": 0.03086941826174292,
+      "observations": 232
+    },
+    "block_bootstrap": {
+      "method": "circular_block_bootstrap",
+      "confidence": 0.99,
+      "horizon_days": 1,
+      "var": 0.021030689176682337,
+      "expected_shortfall": 0.026412844280146175,
+      "observations": 6000
+    },
+    "student_t": {
+      "method": "monte_carlo_student_t",
+      "confidence": 0.99,
+      "horizon_days": 1,
+      "var": 0.020812252920846663,
+      "expected_shortfall": 0.026821183543077956,
+      "observations": 252
+    }
+  },
+  "ten_day_block_bootstrap": {
+    "method": "circular_block_bootstrap",
+    "confidence": 0.99,
+    "horizon_days": 10,
+    "var": 0.05550370267102243,
+    "expected_shortfall": 0.06276383543480342,
+    "observations": 6000
+  },
+  "es_attribution": {
+    "expected_shortfall": 0.0260758107151062,
+    "asset_contributions": [
+      0.016797220868061995,
+      -0.0007434024767378014,
+      0.006459621210967815,
+      0.003562371112814197
+    ],
+    "reconciliation_error": 3.469446951953614e-18
+  },
+  "tail_sampling_intervals": {
+    "var_95_percentile_interval": [
+      0.017245734364166855,
+      0.02929430656252177
+    ],
+    "es_95_percentile_interval": [
+      0.019108586954551702,
+      0.02929430656252177
+    ],
+    "repetitions": 300,
+    "block_length": 5,
+    "seed": 42
+  },
+  "reverse_stress": {
+    "loss_target": 0.1,
+    "asset_shocks": [
+      -0.20810659526220712,
+      -0.022327476361361155,
+      -0.1010618751353883,
+      -0.0685040532410435
+    ],
+    "portfolio_loss": 0.1,
+    "mahalanobis_distance": 13.110690682063767,
+    "interpretation": "Covariance-distance severity, not a calibrated event probability."
+  },
+  "forecast_comparison": {
+    "historical": {
+      "observations": 1260,
+      "exceptions": 18,
+      "expected_exceptions": 12.600000000000012,
+      "exception_rate": 0.014285714285714285,
+      "kupiec_lr": 2.0637084108766715,
+      "kupiec_pvalue": 0.15084268242231086,
+      "exact_binomial_pvalue": 0.15326591759061398,
+      "christoffersen_independence_pvalue": 0.46991414511817187,
+      "conditional_coverage_pvalue": 0.2744618150902277,
+      "warning": null,
+      "mean_quantile_loss": 0.00020773203150533902,
+      "mean_es_calibration_residual": 0.004198494491147661,
+      "es_residual_95_block_bootstrap_interval": [
+        4.826172208836143e-05,
+        0.008075244239643037
+      ],
+      "bootstrap_repetitions": 300,
+      "bootstrap_block_length": 5,
+      "es_diagnostic_note": "Zero is a calibration identity; interval is exploratory, not formal ES validation."
+    },
+    "parametric": {
+      "observations": 1260,
+      "exceptions": 27,
+      "expected_exceptions": 12.600000000000012,
+      "exception_rate": 0.02142857142857143,
+      "kupiec_lr": 12.522439962878536,
+      "kupiec_pvalue": 0.00040209345089566495,
+      "exact_binomial_pvalue": 0.0003042821483106046,
+      "christoffersen_independence_pvalue": 0.2766372473056047,
+      "conditional_coverage_pvalue": 0.00105629462009874,
+      "warning": null,
+      "mean_quantile_loss": 0.0002113061414062108,
+      "mean_es_calibration_residual": 0.007869496633546176,
+      "es_residual_95_block_bootstrap_interval": [
+        0.003251492343241924,
+        0.011989670712171075
+      ],
+      "bootstrap_repetitions": 300,
+      "bootstrap_block_length": 5,
+      "es_diagnostic_note": "Zero is a calibration identity; interval is exploratory, not formal ES validation."
+    },
+    "monte_carlo": {
+      "observations": 1260,
+      "exceptions": 27,
+      "expected_exceptions": 12.600000000000012,
+      "exception_rate": 0.02142857142857143,
+      "kupiec_lr": 12.522439962878536,
+      "kupiec_pvalue": 0.00040209345089566495,
+      "exact_binomial_pvalue": 0.0003042821483106046,
+      "christoffersen_independence_pvalue": 0.2766372473056047,
+      "conditional_coverage_pvalue": 0.00105629462009874,
+      "warning": null,
+      "mean_quantile_loss": 0.00021066625431904502,
+      "mean_es_calibration_residual": 0.007613841403903895,
+      "es_residual_95_block_bootstrap_interval": [
+        0.0030375909389145314,
+        0.011686328409413216
+      ],
+      "bootstrap_repetitions": 300,
+      "bootstrap_block_length": 5,
+      "es_diagnostic_note": "Zero is a calibration identity; interval is exploratory, not formal ES validation."
+    },
+    "filtered_historical": {
+      "observations": 1260,
+      "exceptions": 14,
+      "expected_exceptions": 12.600000000000012,
+      "exception_rate": 0.011111111111111112,
+      "kupiec_lr": 0.15166629481674931,
+      "kupiec_pvalue": 0.696948046133006,
+      "exact_binomial_pvalue": 0.6692311684324844,
+      "christoffersen_independence_pvalue": 0.5747094060448682,
+      "conditional_coverage_pvalue": 0.7919427427633654,
+      "warning": null,
+      "mean_quantile_loss": 0.0002042662275809869,
+      "mean_es_calibration_residual": 0.0006162003114882602,
+      "es_residual_95_block_bootstrap_interval": [
+        -0.0017985741079551481,
+        0.003054653379483676
+      ],
+      "bootstrap_repetitions": 300,
+      "bootstrap_block_length": 5,
+      "es_diagnostic_note": "Zero is a calibration identity; interval is exploratory, not formal ES validation."
+    },
+    "block_bootstrap": {
+      "observations": 1260,
+      "exceptions": 18,
+      "expected_exceptions": 12.600000000000012,
+      "exception_rate": 0.014285714285714285,
+      "kupiec_lr": 2.0637084108766715,
+      "kupiec_pvalue": 0.15084268242231086,
+      "exact_binomial_pvalue": 0.15326591759061398,
+      "christoffersen_independence_pvalue": 0.46991414511817187,
+      "conditional_coverage_pvalue": 0.2744618150902277,
+      "warning": null,
+      "mean_quantile_loss": 0.00020748017666616551,
+      "mean_es_calibration_residual": 0.004183534048796801,
+      "es_residual_95_block_bootstrap_interval": [
+        1.8231483965180216e-05,
+        0.00805439335796336
+      ],
+      "bootstrap_repetitions": 300,
+      "bootstrap_block_length": 5,
+      "es_diagnostic_note": "Zero is a calibration identity; interval is exploratory, not formal ES validation."
+    },
+    "student_t": {
+      "observations": 1260,
+      "exceptions": 18,
+      "expected_exceptions": 12.600000000000012,
+      "exception_rate": 0.014285714285714285,
+      "kupiec_lr": 2.0637084108766715,
+      "kupiec_pvalue": 0.15084268242231086,
+      "exact_binomial_pvalue": 0.15326591759061398,
+      "christoffersen_independence_pvalue": 0.46991414511817187,
+      "conditional_coverage_pvalue": 0.2744618150902277,
+      "warning": null,
+      "mean_quantile_loss": 0.00019454094797458166,
+      "mean_es_calibration_residual": 0.0018106955621849396,
+      "es_residual_95_block_bootstrap_interval": [
+        -0.0013469525655187063,
+        0.005137292445604229
+      ],
+      "bootstrap_repetitions": 300,
+      "bootstrap_block_length": 5,
+      "es_diagnostic_note": "Zero is a calibration identity; interval is exploratory, not formal ES validation."
+    }
+  },
+  "cvar_strategy": {
+    "objective_confidence": 0.95,
+    "statistics": {
+      "annualized_volatility": 0.06575697410928702,
+      "ewma_annualized_volatility": 0.07210558884412899,
+      "annualized_geometric_return": 0.01881493223126962,
+      "maximum_drawdown": -0.1675915791342918,
+      "terminal_wealth": 1.0976819120240076
+    },
+    "rebalances": 60,
+    "total_turnover": 5.575415459461589
+  },
+  "latest_cvar_solution": {
+    "weights": [
+      0.02198740859090832,
+      0.5610554991978195,
+      0.09625454800989916,
+      0.320702544201373
+    ],
+    "risk_shares": [
+      0.010512617874799984,
+      0.629243392673207,
+      0.05564083262220862,
+      0.3046031568297844
+    ],
+    "risk_budget_squared_error": 0.24193674776303215,
+    "annualized_volatility": 0.09565638230660228,
+    "turnover": null,
+    "solver_success": true,
+    "solver_iterations": 58,
+    "historical_cvar": 0.011747302324448572,
+    "lp_objective": 0.01174730232444857,
+    "covariance_method": "LedoitWolf"
+  },
+  "hrp_strategy": {
+    "statistics": {
+      "annualized_volatility": 0.06527463328455906,
+      "ewma_annualized_volatility": 0.07441091109179453,
+      "annualized_geometric_return": 0.019903521232009114,
+      "maximum_drawdown": -0.15300910484535934,
+      "terminal_wealth": 1.1035587433633651
+    },
+    "rebalances": 60,
+    "total_turnover": 3.646589028609348,
+    "constraint_note": "Long-only and fully invested; original risk-parity bounds and turnover caps do not apply to HRP."
+  }
+}

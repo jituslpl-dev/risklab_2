@@ -1,0 +1,2354 @@
+[
+  {
+    "weights": [
+      0.2709029410738955,
+      0.29145397024874176,
+      0.2615543026973224,
+      0.17608878598004035
+    ],
+    "risk_shares": [
+      0.24999995702540792,
+      0.2500000460950832,
+      0.25000002811965494,
+      0.24999996875985375
+    ],
+    "risk_budget_squared_error": 5.738233990529572e-15,
+    "annualized_volatility": 0.1896128591722939,
+    "turnover": 1.0,
+    "solver_success": true,
+    "solver_iterations": 9,
+    "covariance_method": "LedoitWolf",
+    "date": "2008-01-04",
+    "regime": "crisis",
+    "proxy_volatility": 0.26085083352839944,
+    "transaction_cost": 0.0005
+  },
+  {
+    "weights": [
+      0.26988447467692783,
+      0.2837345576622301,
+      0.26499937737803975,
+      0.18138159028280237
+    ],
+    "risk_shares": [
+      0.24999999515585114,
+      0.2500000163039172,
+      0.25000000203436434,
+      0.24999998650586736
+    ],
+    "risk_budget_squared_error": 4.755137488852967e-16,
+    "annualized_volatility": 0.19951465649139324,
+    "turnover": 0.14003026873254004,
+    "solver_success": true,
+    "solver_iterations": 6,
+    "covariance_method": "LedoitWolf",
+    "date": "2008-02-05",
+    "regime": "crisis",
+    "proxy_volatility": 0.23342530161067837,
+    "transaction_cost": 7.001513436627002e-05
+  },
+  {
+    "weights": [
+      0.27253019543579304,
+      0.2797287074009987,
+      0.2647852047594032,
+      0.18295589240380503
+    ],
+    "risk_shares": [
+      0.24999999976291606,
+      0.24999999965401018,
+      0.24999999946115006,
+      0.25000000112192367
+    ],
+    "risk_budget_squared_error": 1.724989713014126e-18,
+    "annualized_volatility": 0.2044183568316152,
+    "turnover": 0.06269475614136227,
+    "solver_success": true,
+    "solver_iterations": 9,
+    "covariance_method": "LedoitWolf",
+    "date": "2008-03-06",
+    "regime": "crisis",
+    "proxy_volatility": 0.23572040036397862,
+    "transaction_cost": 3.1347378070681136e-05
+  },
+  {
+    "weights": [
+      0.271246567380974,
+      0.29065238056135406,
+      0.25467464516934407,
+      0.18342640688832781
+    ],
+    "risk_shares": [
+      0.25000000126795785,
+      0.24999999116577362,
+      0.2500000091040133,
+      0.24999999846225526
+    ],
+    "risk_budget_squared_error": 1.6489899023564637e-16,
+    "annualized_volatility": 0.2178688677347577,
+    "turnover": 0.05933081075345201,
+    "solver_success": true,
+    "solver_iterations": 6,
+    "covariance_method": "LedoitWolf",
+    "date": "2008-04-07",
+    "regime": "crisis",
+    "proxy_volatility": 0.3060385364512795,
+    "transaction_cost": 2.9665405376726007e-05
+  },
+  {
+    "weights": [
+      0.2669100467473657,
+      0.29787072535779663,
+      0.2507966097761224,
+      0.1844226181187154
+    ],
+    "risk_shares": [
+      0.25000000214815826,
+      0.25000000097701885,
+      0.24999999353031724,
+      0.2500000033445056
+    ],
+    "risk_budget_squared_error": 5.861166262178159e-17,
+    "annualized_volatility": 0.22598785885471182,
+    "turnover": 0.06698501837141096,
+    "solver_success": true,
+    "solver_iterations": 6,
+    "covariance_method": "LedoitWolf",
+    "date": "2008-05-06",
+    "regime": "crisis",
+    "proxy_volatility": 0.26483480492091277,
+    "transaction_cost": 3.3492509185705485e-05
+  },
+  {
+    "weights": [
+      0.26465924411982,
+      0.30070613316039707,
+      0.24836291086697468,
+      0.1862717118528082
+    ],
+    "risk_shares": [
+      0.24999999847025894,
+      0.25000000302954717,
+      0.2500000000160203,
+      0.24999999848417376
+    ],
+    "risk_budget_squared_error": 1.3816249592612836e-17,
+    "annualized_volatility": 0.22875309351281678,
+    "turnover": 0.04967477374099208,
+    "solver_success": true,
+    "solver_iterations": 6,
+    "covariance_method": "LedoitWolf",
+    "date": "2008-06-05",
+    "regime": "high_volatility",
+    "proxy_volatility": 0.18139332890790774,
+    "transaction_cost": 2.483738687049604e-05
+  },
+  {
+    "weights": [
+      0.26292513706140264,
+      0.307102184288547,
+      0.24155889733108843,
+      0.1884137813189619
+    ],
+    "risk_shares": [
+      0.24999999568458825,
+      0.25000000485482826,
+      0.24999999918387325,
+      0.2500000002767104
+    ],
+    "risk_budget_squared_error": 4.293476752726378e-17,
+    "annualized_volatility": 0.2374324102909199,
+    "turnover": 0.02055852205950126,
+    "solver_success": true,
+    "solver_iterations": 7,
+    "covariance_method": "LedoitWolf",
+    "date": "2008-07-07",
+    "regime": "crisis",
+    "proxy_volatility": 0.2670565355430104,
+    "transaction_cost": 1.027926102975063e-05
+  },
+  {
+    "weights": [
+      0.25614355042080317,
+      0.3208326099881978,
+      0.23186787508012108,
+      0.1911559645108779
+    ],
+    "risk_shares": [
+      0.2499999994138161,
+      0.25000000046250653,
+      0.2499999996164994,
+      0.25000000050717813
+    ],
+    "risk_budget_squared_error": 9.618262287066355e-19,
+    "annualized_volatility": 0.24205181671131576,
+    "turnover": 0.04734615760592714,
+    "solver_success": true,
+    "solver_iterations": 6,
+    "covariance_method": "LedoitWolf",
+    "date": "2008-08-05",
+    "regime": "crisis",
+    "proxy_volatility": 0.2930984481762189,
+    "transaction_cost": 2.367307880296357e-05
+  },
+  {
+    "weights": [
+      0.2543470440071508,
+      0.3252094345481448,
+      0.22220049688400298,
+      0.19824302456070148
+    ],
+    "risk_shares": [
+      0.24999999952847202,
+      0.24999999745605256,
+      0.249999996739255,
+      0.2500000062762206
+    ],
+    "risk_budget_squared_error": 5.671741023218046e-17,
+    "annualized_volatility": 0.2423144556357638,
+    "turnover": 0.07769250950799755,
+    "solver_success": true,
+    "solver_iterations": 6,
+    "covariance_method": "LedoitWolf",
+    "date": "2008-09-04",
+    "regime": "crisis",
+    "proxy_volatility": 0.2248245183603471,
+    "transaction_cost": 3.8846254753998774e-05
+  },
+  {
+    "weights": [
+      0.2617774181764883,
+      0.32010700904060463,
+      0.23358533796815337,
+      0.18453023481475375
+    ],
+    "risk_shares": [
+      0.2500000064247941,
+      0.24999998960013672,
+      0.24999999893645536,
+      0.2500000050386138
+    ],
+    "risk_budget_squared_error": 1.7595389147405446e-16,
+    "annualized_volatility": 0.27806192348826686,
+    "turnover": 0.09373117206153006,
+    "solver_success": true,
+    "solver_iterations": 7,
+    "covariance_method": "LedoitWolf",
+    "date": "2008-10-03",
+    "regime": "crisis",
+    "proxy_volatility": 0.5391526195598407,
+    "transaction_cost": 4.6865586030765025e-05
+  },
+  {
+    "weights": [
+      0.2505594782427498,
+      0.3205410815170767,
+      0.2257005073057902,
+      0.20319893293438332
+    ],
+    "risk_shares": [
+      0.2500000000904715,
+      0.24999999986259536,
+      0.25000000003378026,
+      0.25000000001315287
+    ],
+    "risk_budget_squared_error": 2.837923540692095e-20,
+    "annualized_volatility": 0.3441820670970583,
+    "turnover": 0.042329558417887186,
+    "solver_success": true,
+    "solver_iterations": 6,
+    "covariance_method": "LedoitWolf",
+    "date": "2008-11-03",
+    "regime": "crisis",
+    "proxy_volatility": 0.7941978836861349,
+    "transaction_cost": 2.1164779208943594e-05
+  },
+  {
+    "weights": [
+      0.24512006050015503,
+      0.3214583333906083,
+      0.21962304624160195,
+      0.21379855986763477
+    ],
+    "risk_shares": [
+      0.250000004126654,
+      0.24999999234965178,
+      0.25000000200245387,
+      0.25000000152124024
+    ],
+    "risk_budget_squared_error": 8.188109459669953e-17,
+    "annualized_volatility": 0.38793210883172724,
+    "turnover": 0.07916403063362282,
+    "solver_success": true,
+    "solver_iterations": 9,
+    "covariance_method": "LedoitWolf",
+    "date": "2008-12-03",
+    "regime": "crisis",
+    "proxy_volatility": 0.7397681141405611,
+    "transaction_cost": 3.9582015316811406e-05
+  },
+  {
+    "weights": [
+      0.24493397006822687,
+      0.319441589786233,
+      0.21913203322708852,
+      0.21649240691845162
+    ],
+    "risk_shares": [
+      0.24999999991355745,
+      0.2500000001466103,
+      0.2500000000300561,
+      0.2499999999097761
+    ],
+    "risk_budget_squared_error": 3.8010612919620335e-20,
+    "annualized_volatility": 0.40254183511788133,
+    "turnover": 0.048490319228716744,
+    "solver_success": true,
+    "solver_iterations": 5,
+    "covariance_method": "LedoitWolf",
+    "date": "2009-01-05",
+    "regime": "crisis",
+    "proxy_volatility": 0.4529423854203414,
+    "transaction_cost": 2.424515961435837e-05
+  },
+  {
+    "weights": [
+      0.24144425941775619,
+      0.314745008868338,
+      0.22066256549466942,
+      0.22314816621923642
+    ],
+    "risk_shares": [
+      0.2499999999676216,
+      0.2499999998958039,
+      0.2500000000735455,
+      0.2500000000630289
+    ],
+    "risk_budget_squared_error": 2.1286772799576947e-20,
+    "annualized_volatility": 0.41329389748110335,
+    "turnover": 0.050407994133095685,
+    "solver_success": true,
+    "solver_iterations": 7,
+    "covariance_method": "LedoitWolf",
+    "date": "2009-02-04",
+    "regime": "crisis",
+    "proxy_volatility": 0.4207751797459056,
+    "transaction_cost": 2.5203997066547845e-05
+  },
+  {
+    "weights": [
+      0.242836380571814,
+      0.31380822047383516,
+      0.21853968563238946,
+      0.22481571332196137
+    ],
+    "risk_shares": [
+      0.24999999843624432,
+      0.24999999769329467,
+      0.2500000000299771,
+      0.25000000384048393
+    ],
+    "risk_budget_squared_error": 2.251643674114745e-17,
+    "annualized_volatility": 0.4220039402060999,
+    "turnover": 0.05193895380012778,
+    "solver_success": true,
+    "solver_iterations": 6,
+    "covariance_method": "LedoitWolf",
+    "date": "2009-03-06",
+    "regime": "crisis",
+    "proxy_volatility": 0.4003965073891111,
+    "transaction_cost": 2.596947690006389e-05
+  },
+  {
+    "weights": [
+      0.2427026119206167,
+      0.3143349041307353,
+      0.2137636161970363,
+      0.22919886775161183
+    ],
+    "risk_shares": [
+      0.24999999982218002,
+      0.2499999992877936,
+      0.2500000006642978,
+      0.2500000002257286
+    ],
+    "risk_budget_squared_error": 1.0311028559690525e-18,
+    "annualized_volatility": 0.43787191816720245,
+    "turnover": 0.05607877996977784,
+    "solver_success": true,
+    "solver_iterations": 7,
+    "covariance_method": "LedoitWolf",
+    "date": "2009-04-06",
+    "regime": "crisis",
+    "proxy_volatility": 0.4927490976605562,
+    "transaction_cost": 2.803938998488892e-05
+  },
+  {
+    "weights": [
+      0.2418287342097935,
+      0.31589121351874283,
+      0.2110529454612207,
+      0.23122710681024297
+    ],
+    "risk_shares": [
+      0.25000000299399366,
+      0.2499999946562061,
+      0.2499999993356937,
+      0.25000000301410646
+    ],
+    "risk_budget_squared_error": 4.704627203009924e-17,
+    "annualized_volatility": 0.43827359497718543,
+    "turnover": 0.06163495044019257,
+    "solver_success": true,
+    "solver_iterations": 8,
+    "covariance_method": "LedoitWolf",
+    "date": "2009-05-06",
+    "regime": "crisis",
+    "proxy_volatility": 0.2700564437752089,
+    "transaction_cost": 3.0817475220096286e-05
+  },
+  {
+    "weights": [
+      0.24314323956820763,
+      0.3154417182453315,
+      0.21075430025104572,
+      0.2306607419354151
+    ],
+    "risk_shares": [
+      0.25000000000650385,
+      0.24999999997947456,
+      0.2500000000072292,
+      0.25000000000679234
+    ],
+    "risk_budget_squared_error": 5.619914170553442e-22,
+    "annualized_volatility": 0.4421012480765039,
+    "turnover": 0.030747879372302972,
+    "solver_success": true,
+    "solver_iterations": 7,
+    "covariance_method": "LedoitWolf",
+    "date": "2009-06-05",
+    "regime": "crisis",
+    "proxy_volatility": 0.27450803181878325,
+    "transaction_cost": 1.5373939686151486e-05
+  },
+  {
+    "weights": [
+      0.24295879909541107,
+      0.31464721536662515,
+      0.21033373024116495,
+      0.23206025529679894
+    ],
+    "risk_shares": [
+      0.24999994938349654,
+      0.24999970091733847,
+      0.250000249113561,
+      0.2500001005856041
+    ],
+    "risk_budget_squared_error": 1.6418749887972225e-13,
+    "annualized_volatility": 0.4386882383877858,
+    "turnover": 0.047666857917197936,
+    "solver_success": true,
+    "solver_iterations": 8,
+    "covariance_method": "LedoitWolf",
+    "date": "2009-07-07",
+    "regime": "high_volatility",
+    "proxy_volatility": 0.19911167009745728,
+    "transaction_cost": 2.3833428958598968e-05
+  },
+  {
+    "weights": [
+      0.24483884886383006,
+      0.3128829083981705,
+      0.20803861261832005,
+      0.23423963011967938
+    ],
+    "risk_shares": [
+      0.2500000064351904,
+      0.2499999769111954,
+      0.2500000203174741,
+      0.24999999633614023
+    ],
+    "risk_budget_squared_error": 1.0007281945534151e-15,
+    "annualized_volatility": 0.43910473139636413,
+    "turnover": 0.07731496653016101,
+    "solver_success": true,
+    "solver_iterations": 5,
+    "covariance_method": "LedoitWolf",
+    "date": "2009-08-05",
+    "regime": "crisis",
+    "proxy_volatility": 0.24852851701561127,
+    "transaction_cost": 3.8657483265080506e-05
+  },
+  {
+    "weights": [
+      0.24475696770984265,
+      0.31200822870406086,
+      0.20875011571048785,
+      0.2344846878756087
+    ],
+    "risk_shares": [
+      0.2499999768836995,
+      0.2500000552572294,
+      0.2500000228464473,
+      0.24999994501262388
+    ],
+    "risk_budget_squared_error": 7.133296437541941e-15,
+    "annualized_volatility": 0.4375492612367631,
+    "turnover": 0.01054906794446936,
+    "solver_success": true,
+    "solver_iterations": 6,
+    "covariance_method": "LedoitWolf",
+    "date": "2009-09-03",
+    "regime": "crisis",
+    "proxy_volatility": 0.20205341830183646,
+    "transaction_cost": 5.27453397223468e-06
+  },
+  {
+    "weights": [
+      0.2384021036474725,
+      0.3104675735129877,
+      0.19981859483389325,
+      0.2513117280056466
+    ],
+    "risk_shares": [
+      0.2500000014985791,
+      0.2499999987510744,
+      0.24999999978855839,
+      0.24999999996178807
+    ],
+    "risk_budget_squared_error": 3.851722168415695e-18,
+    "annualized_volatility": 0.4111152910906506,
+    "turnover": 0.025202803213304842,
+    "solver_success": true,
+    "solver_iterations": 7,
+    "covariance_method": "LedoitWolf",
+    "date": "2009-10-05",
+    "regime": "high_volatility",
+    "proxy_volatility": 0.15857010091302268,
+    "transaction_cost": 1.260140160665242e-05
+  },
+  {
+    "weights": [
+      0.24698328473051712,
+      0.3045669399667331,
+      0.1958239656877597,
+      0.25262580961499004
+    ],
+    "risk_shares": [
+      0.2500000004588885,
+      0.24999999936633702,
+      0.24999999987299518,
+      0.2500000003017795
+    ],
+    "risk_budget_squared_error": 7.193085017953059e-19,
+    "annualized_volatility": 0.35649865931712377,
+    "turnover": 0.020977214856668536,
+    "solver_success": true,
+    "solver_iterations": 7,
+    "covariance_method": "LedoitWolf",
+    "date": "2009-11-03",
+    "regime": "high_volatility",
+    "proxy_volatility": 0.19106946697646024,
+    "transaction_cost": 1.0488607428334267e-05
+  },
+  {
+    "weights": [
+      0.2486284877981759,
+      0.30518237966579664,
+      0.19121295954658804,
+      0.2549761729894396
+    ],
+    "risk_shares": [
+      0.24999992794316098,
+      0.25000002574194186,
+      0.24999998958344646,
+      0.2500000567314509
+    ],
+    "risk_budget_squared_error": 9.181797732280109e-15,
+    "annualized_volatility": 0.2947237661274066,
+    "turnover": 0.02753234233957197,
+    "solver_success": true,
+    "solver_iterations": 5,
+    "covariance_method": "LedoitWolf",
+    "date": "2009-12-03",
+    "regime": "high_volatility",
+    "proxy_volatility": 0.1593800817320937,
+    "transaction_cost": 1.3766171169785985e-05
+  },
+  {
+    "weights": [
+      0.24913581212939195,
+      0.30872136679041784,
+      0.18754333213273053,
+      0.2545994889474596
+    ],
+    "risk_shares": [
+      0.25000000242336357,
+      0.24999999675693146,
+      0.2500000020274684,
+      0.2499999987922367
+    ],
+    "risk_budget_squared_error": 2.1959504877542182e-17,
+    "annualized_volatility": 0.2704286516215934,
+    "turnover": 0.026094818138639897,
+    "solver_success": true,
+    "solver_iterations": 5,
+    "covariance_method": "LedoitWolf",
+    "date": "2010-01-05",
+    "regime": "high_volatility",
+    "proxy_volatility": 0.16734864807709762,
+    "transaction_cost": 1.304740906931995e-05
+  },
+  {
+    "weights": [
+      0.25669101602693456,
+      0.3243936944683061,
+      0.179888724289637,
+      0.23902656521512233
+    ],
+    "risk_shares": [
+      0.2500000662334384,
+      0.25000003039369945,
+      0.2499999272877735,
+      0.24999997608508853
+    ],
+    "risk_budget_squared_error": 1.1169636200000897e-14,
+    "annualized_volatility": 0.2517749084165233,
+    "turnover": 0.05203714211268515,
+    "solver_success": true,
+    "solver_iterations": 9,
+    "covariance_method": "LedoitWolf",
+    "date": "2010-02-04",
+    "regime": "crisis",
+    "proxy_volatility": 0.22980442919550018,
+    "transaction_cost": 2.6018571056342578e-05
+  },
+  {
+    "weights": [
+      0.2524075768250538,
+      0.3328434413992938,
+      0.17864889392495784,
+      0.23610008785069467
+    ],
+    "risk_shares": [
+      0.24999999917061233,
+      0.24999999895925465,
+      0.25000000137110884,
+      0.2500000004990242
+    ],
+    "risk_budget_squared_error": 3.8999993997162326e-18,
+    "annualized_volatility": 0.22961937591677722,
+    "turnover": 0.03809665163087947,
+    "solver_success": true,
+    "solver_iterations": 5,
+    "covariance_method": "LedoitWolf",
+    "date": "2010-03-08",
+    "regime": "high_volatility",
+    "proxy_volatility": 0.1298306671689197,
+    "transaction_cost": 1.9048325815439733e-05
+  },
+  {
+    "weights": [
+      0.2606344657850462,
+      0.3294336499413692,
+      0.18118882302600747,
+      0.2287430612475771
+    ],
+    "risk_shares": [
+      0.25000000024021546,
+      0.24999999937661352,
+      0.2500000024783042,
+      0.2499999979048667
+    ],
+    "risk_budget_squared_error": 1.0977889244556154e-17,
+    "annualized_volatility": 0.1868455013576512,
+    "turnover": 0.03771530512952731,
+    "solver_success": true,
+    "solver_iterations": 6,
+    "covariance_method": "LedoitWolf",
+    "date": "2010-04-07",
+    "regime": "high_volatility",
+    "proxy_volatility": 0.10204013836791462,
+    "transaction_cost": 1.8857652564763655e-05
+  },
+  {
+    "weights": [
+      0.2766740771026205,
+      0.3261842790177175,
+      0.18017183796532768,
+      0.21696980591433432
+    ],
+    "risk_shares": [
+      0.25000000100496494,
+      0.250000000449618,
+      0.24999999928003458,
+      0.2499999992653823
+    ],
+    "risk_budget_squared_error": 2.270124266364415e-18,
+    "annualized_volatility": 0.17995676681736056,
+    "turnover": 0.05653169676745845,
+    "solver_success": true,
+    "solver_iterations": 6,
+    "covariance_method": "LedoitWolf",
+    "date": "2010-05-06",
+    "regime": "crisis",
+    "proxy_volatility": 0.20703800347297313,
+    "transaction_cost": 2.8265848383729226e-05
+  },
+  {
+    "weights": [
+      0.2711145888099357,
+      0.3253379630114039,
+      0.18387221512134874,
+      0.21967523305731165
+    ],
+    "risk_shares": [
+      0.2500000111012129,
+      0.25000001118388976,
+      0.2499999912298741,
+      0.24999998648502317
+    ],
+    "risk_budget_squared_error": 5.078860249715588e-16,
+    "annualized_volatility": 0.1925491575232423,
+    "turnover": 0.04145753621450393,
+    "solver_success": true,
+    "solver_iterations": 6,
+    "covariance_method": "LedoitWolf",
+    "date": "2010-06-07",
+    "regime": "crisis",
+    "proxy_volatility": 0.35710839312855935,
+    "transaction_cost": 2.0728768107251965e-05
+  },
+  {
+    "weights": [
+      0.2686112003898512,
+      0.32546336810124393,
+      0.190288022109782,
+      0.215637409399123
+    ],
+    "risk_shares": [
+      0.25000000219353474,
+      0.25000000223953966,
+      0.24999999902396292,
+      0.24999999654296276
+    ],
+    "risk_budget_squared_error": 2.2730887445624288e-17,
+    "annualized_volatility": 0.19608661647233758,
+    "turnover": 0.04151134647614149,
+    "solver_success": true,
+    "solver_iterations": 6,
+    "covariance_method": "LedoitWolf",
+    "date": "2010-07-07",
+    "regime": "crisis",
+    "proxy_volatility": 0.2256454778691836,
+    "transaction_cost": 2.0755673238070747e-05
+  },
+  {
+    "weights": [
+      0.26940434982930633,
+      0.3213630847019469,
+      0.20149113635697255,
+      0.20774142911177432
+    ],
+    "risk_shares": [
+      0.24999998071637475,
+      0.25000001992011645,
+      0.2499999979349904,
+      0.25000000142851825
+    ],
+    "risk_budget_squared_error": 7.749741711235687e-16,
+    "annualized_volatility": 0.18912558210177519,
+    "turnover": 0.02104821894863121,
+    "solver_success": true,
+    "solver_iterations": 8,
+    "covariance_method": "LedoitWolf",
+    "date": "2010-08-05",
+    "regime": "high_volatility",
+    "proxy_volatility": 0.12767804986041648,
+    "transaction_cost": 1.0524109474315604e-05
+  },
+  {
+    "weights": [
+      0.27255676228499154,
+      0.3175129790388515,
+      0.20144604243893288,
+      0.2084842162372241
+    ],
+    "risk_shares": [
+      0.25000000244661613,
+      0.25000002743014815,
+      0.2499999896513586,
+      0.24999998047187708
+    ],
+    "risk_budget_squared_error": 1.2468409217140462e-15,
+    "annualized_volatility": 0.18903416577159146,
+    "turnover": 0.01830352767110549,
+    "solver_success": true,
+    "solver_iterations": 7,
+    "covariance_method": "LedoitWolf",
+    "date": "2010-09-03",
+    "regime": "high_volatility",
+    "proxy_volatility": 0.19318772968713488,
+    "transaction_cost": 9.151763835552745e-06
+  },
+  {
+    "weights": [
+      0.2690418468017784,
+      0.31462173551972533,
+      0.20500481889429914,
+      0.21133159878419713
+    ],
+    "risk_shares": [
+      0.24999999997551822,
+      0.24999999998133182,
+      0.25000000001859196,
+      0.2500000000245579
+    ],
+    "risk_budget_squared_error": 1.896610344840503e-21,
+    "annualized_volatility": 0.19023707958689026,
+    "turnover": 0.03497080892811258,
+    "solver_success": true,
+    "solver_iterations": 7,
+    "covariance_method": "LedoitWolf",
+    "date": "2010-10-05",
+    "regime": "high_volatility",
+    "proxy_volatility": 0.1523488477165696,
+    "transaction_cost": 1.748540446405629e-05
+  },
+  {
+    "weights": [
+      0.2630915584947179,
+      0.3166153485095661,
+      0.20786986411613176,
+      0.21242322887958426
+    ],
+    "risk_shares": [
+      0.24999999798983943,
+      0.24999999743334347,
+      0.2500000032355923,
+      0.2500000013412248
+    ],
+    "risk_budget_squared_error": 2.2896412675791082e-17,
+    "annualized_volatility": 0.1889108937834054,
+    "turnover": 0.03048043957240626,
+    "solver_success": true,
+    "solver_iterations": 7,
+    "covariance_method": "LedoitWolf",
+    "date": "2010-11-03",
+    "regime": "high_volatility",
+    "proxy_volatility": 0.1324035865532034,
+    "transaction_cost": 1.524021978620313e-05
+  },
+  {
+    "weights": [
+      0.26298966627242504,
+      0.3156653553078449,
+      0.2067213557916976,
+      0.21462362262803253
+    ],
+    "risk_shares": [
+      0.24999999999433334,
+      0.25000000006004575,
+      0.2499999999830942,
+      0.24999999996252684
+    ],
+    "risk_budget_squared_error": 5.327647079008869e-21,
+    "annualized_volatility": 0.1919532393050108,
+    "turnover": 0.04364247548805192,
+    "solver_success": true,
+    "solver_iterations": 6,
+    "covariance_method": "LedoitWolf",
+    "date": "2010-12-03",
+    "regime": "crisis",
+    "proxy_volatility": 0.20468888774605032,
+    "transaction_cost": 2.182123774402596e-05
+  },
+  {
+    "weights": [
+      0.2626577340959128,
+      0.31253046377397425,
+      0.20921676942935663,
+      0.21559503270075628
+    ],
+    "risk_shares": [
+      0.24999999881502413,
+      0.2500000046101898,
+      0.24999999665834624,
+      0.24999999991643973
+    ],
+    "risk_budget_squared_error": 3.383164983000667e-17,
+    "annualized_volatility": 0.18814660853652498,
+    "turnover": 0.009881775927326947,
+    "solver_success": true,
+    "solver_iterations": 5,
+    "covariance_method": "LedoitWolf",
+    "date": "2011-01-04",
+    "regime": "calm",
+    "proxy_volatility": 0.08207913390752428,
+    "transaction_cost": 4.940887963663473e-06
+  },
+  {
+    "weights": [
+      0.2610624995244353,
+      0.31205940146133343,
+      0.20338564676111492,
+      0.22349245225311634
+    ],
+    "risk_shares": [
+      0.2500000007310458,
+      0.24999999904066705,
+      0.25000000024165214,
+      0.24999999998663489
+    ],
+    "risk_budget_squared_error": 1.513322018133455e-18,
+    "annualized_volatility": 0.18159426045214538,
+    "turnover": 0.043818061519811075,
+    "solver_success": true,
+    "solver_iterations": 9,
+    "covariance_method": "LedoitWolf",
+    "date": "2011-02-03",
+    "regime": "high_volatility",
+    "proxy_volatility": 0.15288713378236998,
+    "transaction_cost": 2.1909030759905538e-05
+  },
+  {
+    "weights": [
+      0.2639667723129612,
+      0.30994124058857353,
+      0.2003989358216995,
+      0.22569305127676575
+    ],
+    "risk_shares": [
+      0.25000000061164607,
+      0.24999998895732573,
+      0.24999999682093918,
+      0.2500000136100893
+    ],
+    "risk_budget_squared_error": 3.1765572390286966e-16,
+    "annualized_volatility": 0.18029644844197054,
+    "turnover": 0.039192349158809175,
+    "solver_success": true,
+    "solver_iterations": 6,
+    "covariance_method": "LedoitWolf",
+    "date": "2011-03-07",
+    "regime": "high_volatility",
+    "proxy_volatility": 0.15272690968619357,
+    "transaction_cost": 1.959617457940459e-05
+  },
+  {
+    "weights": [
+      0.26575902021812786,
+      0.3038876355026789,
+      0.20421309566584375,
+      0.22614024861334958
+    ],
+    "risk_shares": [
+      0.2500000006818073,
+      0.2499999953911314,
+      0.2499999962523726,
+      0.2500000076746887
+    ],
+    "risk_budget_squared_error": 9.465208893156478e-17,
+    "annualized_volatility": 0.1842325119019231,
+    "turnover": 0.046156038667484495,
+    "solver_success": true,
+    "solver_iterations": 6,
+    "covariance_method": "LedoitWolf",
+    "date": "2011-04-05",
+    "regime": "high_volatility",
+    "proxy_volatility": 0.17243698399653226,
+    "transaction_cost": 2.3078019333742247e-05
+  },
+  {
+    "weights": [
+      0.2586417145603881,
+      0.29767033056065945,
+      0.2104124024843232,
+      0.2332755523946293
+    ],
+    "risk_shares": [
+      0.25000001235674413,
+      0.24999999560807853,
+      0.2499999597045158,
+      0.2500000323306617
+    ],
+    "risk_budget_squared_error": 2.8409758326414008e-15,
+    "annualized_volatility": 0.17849009217547335,
+    "turnover": 0.03586443608973694,
+    "solver_success": true,
+    "solver_iterations": 6,
+    "covariance_method": "LedoitWolf",
+    "date": "2011-05-05",
+    "regime": "calm",
+    "proxy_volatility": 0.08914001197574037,
+    "transaction_cost": 1.793221804486847e-05
+  },
+  {
+    "weights": [
+      0.2550071172821167,
+      0.29992965232720387,
+      0.2073815450157558,
+      0.23768168537492346
+    ],
+    "risk_shares": [
+      0.2499999971704192,
+      0.25000000457433313,
+      0.24999999616306418,
+      0.25000000209218354
+    ],
+    "risk_budget_squared_error": 4.8030359560197495e-17,
+    "annualized_volatility": 0.15402912702151794,
+    "turnover": 0.0125505755155835,
+    "solver_success": true,
+    "solver_iterations": 6,
+    "covariance_method": "LedoitWolf",
+    "date": "2011-06-06",
+    "regime": "high_volatility",
+    "proxy_volatility": 0.15085969715489977,
+    "transaction_cost": 6.275287757791751e-06
+  },
+  {
+    "weights": [
+      0.2569329794467891,
+      0.30004951921516587,
+      0.20627693233388852,
+      0.23674056900415652
+    ],
+    "risk_shares": [
+      0.25000000242502846,
+      0.24999999851673513,
+      0.24999999719341523,
+      0.2500000018648211
+    ],
+    "risk_budget_squared_error": 1.9435313407183666e-17,
+    "annualized_volatility": 0.1473462599686404,
+    "turnover": 0.03517425093547344,
+    "solver_success": true,
+    "solver_iterations": 6,
+    "covariance_method": "LedoitWolf",
+    "date": "2011-07-06",
+    "regime": "high_volatility",
+    "proxy_volatility": 0.165480574575908,
+    "transaction_cost": 1.7587125467736718e-05
+  },
+  {
+    "weights": [
+      0.25571321759501303,
+      0.2984745505827402,
+      0.20621465123771943,
+      0.23959758058452732
+    ],
+    "risk_shares": [
+      0.250000004982821,
+      0.2500000002299771,
+      0.24999999125825392,
+      0.25000000352894786
+    ],
+    "risk_budget_squared_error": 1.1375299191964337e-16,
+    "annualized_volatility": 0.14925773048225893,
+    "turnover": 0.03637872720049021,
+    "solver_success": true,
+    "solver_iterations": 6,
+    "covariance_method": "LedoitWolf",
+    "date": "2011-08-04",
+    "regime": "high_volatility",
+    "proxy_volatility": 0.18744361691820594,
+    "transaction_cost": 1.8189363600245105e-05
+  },
+  {
+    "weights": [
+      0.2585845473337767,
+      0.2919921099394573,
+      0.200592544578352,
+      0.24883079814841402
+    ],
+    "risk_shares": [
+      0.24999999998110028,
+      0.24999999984036456,
+      0.25000000022158725,
+      0.249999999956948
+    ],
+    "risk_budget_squared_error": 7.679505810940286e-20,
+    "annualized_volatility": 0.18734552879160854,
+    "turnover": 0.018579429664132008,
+    "solver_success": true,
+    "solver_iterations": 7,
+    "covariance_method": "LedoitWolf",
+    "date": "2011-09-02",
+    "regime": "crisis",
+    "proxy_volatility": 0.44661124901637717,
+    "transaction_cost": 9.289714832066004e-06
+  },
+  {
+    "weights": [
+      0.26106457223768587,
+      0.2889474024363932,
+      0.19664033936857447,
+      0.25334768595734647
+    ],
+    "risk_shares": [
+      0.25000000020393276,
+      0.24999999871683543,
+      0.24999999918901067,
+      0.25000000189022104
+    ],
+    "risk_budget_squared_error": 5.918739153416335e-18,
+    "annualized_volatility": 0.1950262596355826,
+    "turnover": 0.032192865701054674,
+    "solver_success": true,
+    "solver_iterations": 7,
+    "covariance_method": "LedoitWolf",
+    "date": "2011-10-04",
+    "regime": "crisis",
+    "proxy_volatility": 0.2510813232575935,
+    "transaction_cost": 1.6096432850527336e-05
+  },
+  {
+    "weights": [
+      0.266702598085802,
+      0.28970882498746153,
+      0.19283545741321415,
+      0.25075311951352236
+    ],
+    "risk_shares": [
+      0.24999999843619744,
+      0.24999999854464452,
+      0.2500000113166514,
+      0.24999999170250664
+    ],
+    "risk_budget_squared_error": 2.0147853281584072e-16,
+    "annualized_volatility": 0.20212242400192118,
+    "turnover": 0.032515224691699984,
+    "solver_success": true,
+    "solver_iterations": 5,
+    "covariance_method": "LedoitWolf",
+    "date": "2011-11-02",
+    "regime": "crisis",
+    "proxy_volatility": 0.25479909132883993,
+    "transaction_cost": 1.625761234584999e-05
+  },
+  {
+    "weights": [
+      0.26483621861360845,
+      0.2865268212857767,
+      0.19716818894453256,
+      0.25146877115608224
+    ],
+    "risk_shares": [
+      0.24999999987058122,
+      0.24999999968334252,
+      0.24999999972890297,
+      0.2500000007171733
+    ],
+    "risk_budget_squared_error": 7.048523529770596e-19,
+    "annualized_volatility": 0.20697076710313358,
+    "turnover": 0.03442096346085807,
+    "solver_success": true,
+    "solver_iterations": 7,
+    "covariance_method": "LedoitWolf",
+    "date": "2011-12-02",
+    "regime": "crisis",
+    "proxy_volatility": 0.2554123509760998,
+    "transaction_cost": 1.7210481730429035e-05
+  },
+  {
+    "weights": [
+      0.2648906991469853,
+      0.28337317976256976,
+      0.19997322287950295,
+      0.251762898210942
+    ],
+    "risk_shares": [
+      0.24999995420111826,
+      0.2500000193570805,
+      0.2500000147144421,
+      0.2500000117273593
+    ],
+    "risk_budget_squared_error": 2.8262798970012426e-15,
+    "annualized_volatility": 0.2108678074791696,
+    "turnover": 0.025124998220625083,
+    "solver_success": true,
+    "solver_iterations": 9,
+    "covariance_method": "LedoitWolf",
+    "date": "2012-01-04",
+    "regime": "high_volatility",
+    "proxy_volatility": 0.160674094420581,
+    "transaction_cost": 1.2562499110312542e-05
+  },
+  {
+    "weights": [
+      0.26168732261234384,
+      0.28366011390646134,
+      0.20152071443589167,
+      0.2531318490453033
+    ],
+    "risk_shares": [
+      0.24999999577594645,
+      0.2500000063472273,
+      0.24999999904136452,
+      0.24999999883546165
+    ],
+    "risk_budget_squared_error": 6.04050543503618e-17,
+    "annualized_volatility": 0.20955187473046236,
+    "turnover": 0.03836607202747136,
+    "solver_success": true,
+    "solver_iterations": 7,
+    "covariance_method": "LedoitWolf",
+    "date": "2012-02-03",
+    "regime": "high_volatility",
+    "proxy_volatility": 0.1144665122977741,
+    "transaction_cost": 1.918303601373568e-05
+  },
+  {
+    "weights": [
+      0.2577776628367267,
+      0.28661496941257963,
+      0.20398285124244026,
+      0.2516245165082534
+    ],
+    "risk_shares": [
+      0.24999988404064513,
+      0.24999994086546062,
+      0.2500000507824373,
+      0.25000012431145696
+    ],
+    "risk_budget_squared_error": 3.497565999985965e-14,
+    "annualized_volatility": 0.20775470090714246,
+    "turnover": 0.045658659003665114,
+    "solver_success": true,
+    "solver_iterations": 5,
+    "covariance_method": "LedoitWolf",
+    "date": "2012-03-06",
+    "regime": "high_volatility",
+    "proxy_volatility": 0.10189337017194956,
+    "transaction_cost": 2.2829329501832558e-05
+  },
+  {
+    "weights": [
+      0.2570548812551951,
+      0.29053000508824955,
+      0.2026470842377945,
+      0.24976802941876078
+    ],
+    "risk_shares": [
+      0.2500000000619747,
+      0.25000000005922807,
+      0.25000000008338946,
+      0.24999999979540782
+    ],
+    "risk_budget_squared_error": 5.616058881016078e-20,
+    "annualized_volatility": 0.2057715344299859,
+    "turnover": 0.07279661034602763,
+    "solver_success": true,
+    "solver_iterations": 6,
+    "covariance_method": "LedoitWolf",
+    "date": "2012-04-04",
+    "regime": "high_volatility",
+    "proxy_volatility": 0.11277142870473243,
+    "transaction_cost": 3.639830517301382e-05
+  },
+  {
+    "weights": [
+      0.26374759486129384,
+      0.2931793165520481,
+      0.20540292296962706,
+      0.23767016561703105
+    ],
+    "risk_shares": [
+      0.24999999948388896,
+      0.2500000002385977,
+      0.2500000005813528,
+      0.2499999996961606
+    ],
+    "risk_budget_squared_error": 7.535889265858088e-19,
+    "annualized_volatility": 0.2122283690983448,
+    "turnover": 0.005495277262896003,
+    "solver_success": true,
+    "solver_iterations": 6,
+    "covariance_method": "LedoitWolf",
+    "date": "2012-05-04",
+    "regime": "crisis",
+    "proxy_volatility": 0.20872738518286268,
+    "transaction_cost": 2.747638631448002e-06
+  },
+  {
+    "weights": [
+      0.2665266126193631,
+      0.2971804055713318,
+      0.2026746514983848,
+      0.2336183303109203
+    ],
+    "risk_shares": [
+      0.25000000082051405,
+      0.24999999862699485,
+      0.2500000024881525,
+      0.24999999806433856
+    ],
+    "risk_budget_squared_error": 1.2496074599087025e-17,
+    "annualized_volatility": 0.21596076044394705,
+    "turnover": 0.04172830967271318,
+    "solver_success": true,
+    "solver_iterations": 6,
+    "covariance_method": "LedoitWolf",
+    "date": "2012-06-05",
+    "regime": "crisis",
+    "proxy_volatility": 0.2063795267281284,
+    "transaction_cost": 2.086415483635659e-05
+  },
+  {
+    "weights": [
+      0.2636075479363424,
+      0.2963624586954605,
+      0.20195448639039423,
+      0.23807550697780303
+    ],
+    "risk_shares": [
+      0.2500000002570137,
+      0.249999998989196,
+      0.25000000309951054,
+      0.24999999765427988
+    ],
+    "risk_budget_squared_error": 1.619714919671524e-17,
+    "annualized_volatility": 0.21874343086081688,
+    "turnover": 0.028124153143541608,
+    "solver_success": true,
+    "solver_iterations": 6,
+    "covariance_method": "LedoitWolf",
+    "date": "2012-07-05",
+    "regime": "crisis",
+    "proxy_volatility": 0.208518571988059,
+    "transaction_cost": 1.4062076571770804e-05
+  },
+  {
+    "weights": [
+      0.2648264711773686,
+      0.2965825888554144,
+      0.1994092654252701,
+      0.23918167454194694
+    ],
+    "risk_shares": [
+      0.25000000001343625,
+      0.24999999913136967,
+      0.24999999944645063,
+      0.25000000140874346
+    ],
+    "risk_budget_squared_error": 3.0456742215715743e-18,
+    "annualized_volatility": 0.21859149220837112,
+    "turnover": 0.05176393723681336,
+    "solver_success": true,
+    "solver_iterations": 7,
+    "covariance_method": "LedoitWolf",
+    "date": "2012-08-03",
+    "regime": "high_volatility",
+    "proxy_volatility": 0.18279777898825392,
+    "transaction_cost": 2.5881968618406683e-05
+  },
+  {
+    "weights": [
+      0.2604538400641905,
+      0.3003148950122959,
+      0.2059850380889952,
+      0.23324622683451837
+    ],
+    "risk_shares": [
+      0.2500000005170492,
+      0.24999999927983302,
+      0.2500000003429088,
+      0.24999999986020882
+    ],
+    "risk_budget_squared_error": 9.231083645065365e-19,
+    "annualized_volatility": 0.18124610776097974,
+    "turnover": 0.0442878388050455,
+    "solver_success": true,
+    "solver_iterations": 5,
+    "covariance_method": "LedoitWolf",
+    "date": "2012-09-04",
+    "regime": "calm",
+    "proxy_volatility": 0.08993066147795743,
+    "transaction_cost": 2.214391940252275e-05
+  },
+  {
+    "weights": [
+      0.2588980049092736,
+      0.30600463589016924,
+      0.21026613152895,
+      0.22483122767160715
+    ],
+    "risk_shares": [
+      0.25000000288947494,
+      0.2500000041091401,
+      0.24999999633790804,
+      0.24999999666347691
+    ],
+    "risk_budget_squared_error": 4.9777401486242466e-17,
+    "annualized_volatility": 0.17024422669201217,
+    "turnover": 0.03721445711880439,
+    "solver_success": true,
+    "solver_iterations": 6,
+    "covariance_method": "LedoitWolf",
+    "date": "2012-10-03",
+    "regime": "high_volatility",
+    "proxy_volatility": 0.1307706885852799,
+    "transaction_cost": 1.8607228559402195e-05
+  },
+  {
+    "weights": [
+      0.25905982129259836,
+      0.3012070718546811,
+      0.21361544714666886,
+      0.22611765970605174
+    ],
+    "risk_shares": [
+      0.25000000105702835,
+      0.2499999992548066,
+      0.2500000035361708,
+      0.24999999615199425
+    ],
+    "risk_budget_squared_error": 2.898427431741501e-17,
+    "annualized_volatility": 0.16339995743220387,
+    "turnover": 0.05061979468352229,
+    "solver_success": true,
+    "solver_iterations": 6,
+    "covariance_method": "LedoitWolf",
+    "date": "2012-11-05",
+    "regime": "high_volatility",
+    "proxy_volatility": 0.18103697308723143,
+    "transaction_cost": 2.5309897341761146e-05
+  },
+  {
+    "weights": [
+      0.25875207621186086,
+      0.3108368831990146,
+      0.21591681492556175,
+      0.21449422566356274
+    ],
+    "risk_shares": [
+      0.2499999995646787,
+      0.2500000003975065,
+      0.2500000001511759,
+      0.24999999988663882
+    ],
+    "risk_budget_squared_error": 3.832209914700364e-19,
+    "annualized_volatility": 0.15641333634882745,
+    "turnover": 0.04950186746628252,
+    "solver_success": true,
+    "solver_iterations": 6,
+    "covariance_method": "LedoitWolf",
+    "date": "2012-12-05",
+    "regime": "high_volatility",
+    "proxy_volatility": 0.19256320663070756,
+    "transaction_cost": 2.475093373314126e-05
+  },
+  {
+    "weights": [
+      0.25815768611525297,
+      0.32269377892349493,
+      0.21596160905264503,
+      0.2031869259086071
+    ],
+    "risk_shares": [
+      0.2499999998246258,
+      0.25000000003069883,
+      0.25000000028178726,
+      0.24999999986288798
+    ],
+    "risk_budget_squared_error": 1.299022889019364e-19,
+    "annualized_volatility": 0.15881012100307518,
+    "turnover": 0.0348365589585774,
+    "solver_success": true,
+    "solver_iterations": 6,
+    "covariance_method": "LedoitWolf",
+    "date": "2013-01-07",
+    "regime": "high_volatility",
+    "proxy_volatility": 0.19809627284113748,
+    "transaction_cost": 1.7418279479288702e-05
+  },
+  {
+    "weights": [
+      0.2701092316298708,
+      0.3220963859231077,
+      0.21774715107513556,
+      0.19004723137188595
+    ],
+    "risk_shares": [
+      0.25000000092314667,
+      0.24999999805852027,
+      0.249999998828253,
+      0.2500000021900802
+    ],
+    "risk_budget_squared_error": 1.079098551187117e-17,
+    "annualized_volatility": 0.15942372492279575,
+    "turnover": 0.03460273298787517,
+    "solver_success": true,
+    "solver_iterations": 6,
+    "covariance_method": "LedoitWolf",
+    "date": "2013-02-06",
+    "regime": "high_volatility",
+    "proxy_volatility": 0.16780399201696028,
+    "transaction_cost": 1.7301366493937584e-05
+  },
+  {
+    "weights": [
+      0.27570415872264986,
+      0.3176894074377683,
+      0.21475768653070967,
+      0.19184874730887216
+    ],
+    "risk_shares": [
+      0.24999999981285606,
+      0.2500000006222043,
+      0.24999999998228817,
+      0.24999999958265154
+    ],
+    "risk_budget_squared_error": 5.966544772927644e-19,
+    "annualized_volatility": 0.1604949955662077,
+    "turnover": 0.034558144439464145,
+    "solver_success": true,
+    "solver_iterations": 6,
+    "covariance_method": "LedoitWolf",
+    "date": "2013-03-08",
+    "regime": "high_volatility",
+    "proxy_volatility": 0.13455298412536393,
+    "transaction_cost": 1.727907221973207e-05
+  },
+  {
+    "weights": [
+      0.2757282209640056,
+      0.3137288994560051,
+      0.21680890792307803,
+      0.1937339716569113
+    ],
+    "risk_shares": [
+      0.24999998862870818,
+      0.2499999771526118,
+      0.2500000167976623,
+      0.25000001742101774
+    ],
+    "risk_budget_squared_error": 1.2369627438743426e-15,
+    "annualized_volatility": 0.1578504374446482,
+    "turnover": 0.014202951983371515,
+    "solver_success": true,
+    "solver_iterations": 5,
+    "covariance_method": "LedoitWolf",
+    "date": "2013-04-09",
+    "regime": "calm",
+    "proxy_volatility": 0.08377928415827852,
+    "transaction_cost": 7.101475991685757e-06
+  },
+  {
+    "weights": [
+      0.27185953811481167,
+      0.3011187629599976,
+      0.2273057951602864,
+      0.1997159037649043
+    ],
+    "risk_shares": [
+      0.25000000798397154,
+      0.25000001955270573,
+      0.2500000037245154,
+      0.2499999687388073
+    ],
+    "risk_budget_squared_error": 1.4371862865007147e-15,
+    "annualized_volatility": 0.15849367608032824,
+    "turnover": 0.05803540526266865,
+    "solver_success": true,
+    "solver_iterations": 6,
+    "covariance_method": "LedoitWolf",
+    "date": "2013-05-08",
+    "regime": "high_volatility",
+    "proxy_volatility": 0.19703008572002512,
+    "transaction_cost": 2.9017702631334324e-05
+  },
+  {
+    "weights": [
+      0.26605775354880146,
+      0.28954602221250597,
+      0.23872112313490074,
+      0.2056751011037918
+    ],
+    "risk_shares": [
+      0.24999999831872957,
+      0.25000000084769336,
+      0.24999999989429733,
+      0.2500000009392797
+    ],
+    "risk_budget_squared_error": 4.43867371303155e-18,
+    "annualized_volatility": 0.15065410373235708,
+    "turnover": 0.0542879383536132,
+    "solver_success": true,
+    "solver_iterations": 6,
+    "covariance_method": "LedoitWolf",
+    "date": "2013-06-07",
+    "regime": "calm",
+    "proxy_volatility": 0.0997427337212566,
+    "transaction_cost": 2.7143969176806603e-05
+  },
+  {
+    "weights": [
+      0.27339466635901966,
+      0.28438052440712314,
+      0.2396512975871913,
+      0.20257351164666587
+    ],
+    "risk_shares": [
+      0.25000000010627726,
+      0.24999999900478093,
+      0.2500000001437903,
+      0.2500000007451514
+    ],
+    "risk_budget_squared_error": 1.577682102634403e-18,
+    "annualized_volatility": 0.14547797282417177,
+    "turnover": 0.04241854607476972,
+    "solver_success": true,
+    "solver_iterations": 6,
+    "covariance_method": "LedoitWolf",
+    "date": "2013-07-09",
+    "regime": "high_volatility",
+    "proxy_volatility": 0.13916159849445714,
+    "transaction_cost": 2.120927303738486e-05
+  },
+  {
+    "weights": [
+      0.2528517938993309,
+      0.2923185592280831,
+      0.2531324540092401,
+      0.20169719286334575
+    ],
+    "risk_shares": [
+      0.25000000258451593,
+      0.2500000003174648,
+      0.24999999808340376,
+      0.2499999990146156
+    ],
+    "risk_budget_squared_error": 1.1424830099942001e-17,
+    "annualized_volatility": 0.1447315445487807,
+    "turnover": 0.04477813792106425,
+    "solver_success": true,
+    "solver_iterations": 6,
+    "covariance_method": "LedoitWolf",
+    "date": "2013-08-07",
+    "regime": "high_volatility",
+    "proxy_volatility": 0.19403485665965997,
+    "transaction_cost": 2.2389068960532124e-05
+  },
+  {
+    "weights": [
+      0.24280839483188923,
+      0.29756158536511673,
+      0.25695908029075537,
+      0.2026709395122386
+    ],
+    "risk_shares": [
+      0.250000000108267,
+      0.2500000001257086,
+      0.24999999972276754,
+      0.250000000043257
+    ],
+    "risk_budget_squared_error": 1.062534046411421e-19,
+    "annualized_volatility": 0.14581522873018918,
+    "turnover": 0.04331210736383778,
+    "solver_success": true,
+    "solver_iterations": 6,
+    "covariance_method": "LedoitWolf",
+    "date": "2013-09-06",
+    "regime": "high_volatility",
+    "proxy_volatility": 0.13814240811917436,
+    "transaction_cost": 2.165605368191889e-05
+  },
+  {
+    "weights": [
+      0.24287394680388108,
+      0.29486179521794076,
+      0.26062241199331226,
+      0.20164184598486593
+    ],
+    "risk_shares": [
+      0.24999999726752045,
+      0.2500000001688757,
+      0.25000000412741874,
+      0.2499999984361853
+    ],
+    "risk_budget_squared_error": 2.697606531768429e-17,
+    "annualized_volatility": 0.14606968893531327,
+    "turnover": 0.03583379091406169,
+    "solver_success": true,
+    "solver_iterations": 6,
+    "covariance_method": "LedoitWolf",
+    "date": "2013-10-07",
+    "regime": "high_volatility",
+    "proxy_volatility": 0.12419767673246622,
+    "transaction_cost": 1.7916895457030848e-05
+  },
+  {
+    "weights": [
+      0.2365351435646789,
+      0.2880774706369632,
+      0.271420620886739,
+      0.2039667649116188
+    ],
+    "risk_shares": [
+      0.25000000332909916,
+      0.25000000242389203,
+      0.24999999434159403,
+      0.2499999999054148
+    ],
+    "risk_budget_squared_error": 4.898465825396837e-17,
+    "annualized_volatility": 0.1417265993299976,
+    "turnover": 0.04009024180729745,
+    "solver_success": true,
+    "solver_iterations": 6,
+    "covariance_method": "LedoitWolf",
+    "date": "2013-11-05",
+    "regime": "high_volatility",
+    "proxy_volatility": 0.12387721977025562,
+    "transaction_cost": 2.0045120903648725e-05
+  },
+  {
+    "weights": [
+      0.2351726055713088,
+      0.28526692091720696,
+      0.26765968598779377,
+      0.21190078752369063
+    ],
+    "risk_shares": [
+      0.2500000028547796,
+      0.2500000012651083,
+      0.2500000020408291,
+      0.24999999383928292
+    ],
+    "risk_budget_squared_error": 5.186968381416161e-17,
+    "annualized_volatility": 0.1351033141719868,
+    "turnover": 0.03457392958185529,
+    "solver_success": true,
+    "solver_iterations": 7,
+    "covariance_method": "LedoitWolf",
+    "date": "2013-12-05",
+    "regime": "high_volatility",
+    "proxy_volatility": 0.10802007882176733,
+    "transaction_cost": 1.7286964790927644e-05
+  },
+  {
+    "weights": [
+      0.23312308093331124,
+      0.2763822843411616,
+      0.2663475707429856,
+      0.22414706398254167
+    ],
+    "risk_shares": [
+      0.25000000836625696,
+      0.24999999390716499,
+      0.25000000289349583,
+      0.24999999483308225
+    ],
+    "risk_budget_squared_error": 1.4218625132884042e-16,
+    "annualized_volatility": 0.12825206332363293,
+    "turnover": 0.06304303988403118,
+    "solver_success": true,
+    "solver_iterations": 7,
+    "covariance_method": "LedoitWolf",
+    "date": "2014-01-07",
+    "regime": "high_volatility",
+    "proxy_volatility": 0.12389330716238842,
+    "transaction_cost": 3.152151994201559e-05
+  },
+  {
+    "weights": [
+      0.2256509672142537,
+      0.2768311100774576,
+      0.25713911875928064,
+      0.24037880394900812
+    ],
+    "risk_shares": [
+      0.24999999987548666,
+      0.25000000039882053,
+      0.24999999980450002,
+      0.24999999992119293
+    ],
+    "risk_budget_squared_error": 2.1899218544739703e-19,
+    "annualized_volatility": 0.12936018939714589,
+    "turnover": 0.043275858401009754,
+    "solver_success": true,
+    "solver_iterations": 6,
+    "covariance_method": "LedoitWolf",
+    "date": "2014-02-06",
+    "regime": "high_volatility",
+    "proxy_volatility": 0.16550705637965116,
+    "transaction_cost": 2.1637929200504877e-05
+  },
+  {
+    "weights": [
+      0.22642305277330083,
+      0.27528357004498777,
+      0.25515100163031185,
+      0.24314237555139961
+    ],
+    "risk_shares": [
+      0.2499999957457338,
+      0.25000001187652093,
+      0.2499999965705417,
+      0.24999999580720345
+    ],
+    "risk_budget_squared_error": 1.8849125747312484e-16,
+    "annualized_volatility": 0.12804663838850514,
+    "turnover": 0.0188866696044514,
+    "solver_success": true,
+    "solver_iterations": 6,
+    "covariance_method": "LedoitWolf",
+    "date": "2014-03-10",
+    "regime": "high_volatility",
+    "proxy_volatility": 0.11295049982842752,
+    "transaction_cost": 9.4433348022257e-06
+  },
+  {
+    "weights": [
+      0.22026790153371417,
+      0.27551951616988984,
+      0.2568134772111654,
+      0.24739910508523072
+    ],
+    "risk_shares": [
+      0.2500000011351854,
+      0.2500000011490713,
+      0.24999999920908703,
+      0.24999999850665644
+    ],
+    "risk_budget_squared_error": 5.464629002801909e-18,
+    "annualized_volatility": 0.1315559223667673,
+    "turnover": 0.04530478410235378,
+    "solver_success": true,
+    "solver_iterations": 6,
+    "covariance_method": "LedoitWolf",
+    "date": "2014-04-08",
+    "regime": "high_volatility",
+    "proxy_volatility": 0.14433626572811709,
+    "transaction_cost": 2.265239205117689e-05
+  },
+  {
+    "weights": [
+      0.21528841952024919,
+      0.2882789105810595,
+      0.24772624434513904,
+      0.24870642555355213
+    ],
+    "risk_shares": [
+      0.24999999106365173,
+      0.2500000201531029,
+      0.2499999964582533,
+      0.24999999232499212
+    ],
+    "risk_budget_squared_error": 5.574555929396693e-16,
+    "annualized_volatility": 0.12821736492529442,
+    "turnover": 0.053394058371637465,
+    "solver_success": true,
+    "solver_iterations": 7,
+    "covariance_method": "LedoitWolf",
+    "date": "2014-05-08",
+    "regime": "high_volatility",
+    "proxy_volatility": 0.16439241441501973,
+    "transaction_cost": 2.6697029185818732e-05
+  },
+  {
+    "weights": [
+      0.2167926887914893,
+      0.2899281813220538,
+      0.24580827642191977,
+      0.2474708534645371
+    ],
+    "risk_shares": [
+      0.24999999243921267,
+      0.24999999703876594,
+      0.2500000111686732,
+      0.24999999935334818
+    ],
+    "risk_budget_squared_error": 1.9109183203018433e-16,
+    "annualized_volatility": 0.12802951860957582,
+    "turnover": 0.04033766183798873,
+    "solver_success": true,
+    "solver_iterations": 6,
+    "covariance_method": "LedoitWolf",
+    "date": "2014-06-09",
+    "regime": "calm",
+    "proxy_volatility": 0.09899386857123403,
+    "transaction_cost": 2.0168830918994364e-05
+  },
+  {
+    "weights": [
+      0.2153896230615392,
+      0.287529337571556,
+      0.24930511898554134,
+      0.24777592038136356
+    ],
+    "risk_shares": [
+      0.24999999999314196,
+      0.2500000000117193,
+      0.25000000000170225,
+      0.24999999999343653
+    ],
+    "risk_budget_squared_error": 2.3035136635340693e-22,
+    "annualized_volatility": 0.1227232999774581,
+    "turnover": 0.008377680590849423,
+    "solver_success": true,
+    "solver_iterations": 5,
+    "covariance_method": "LedoitWolf",
+    "date": "2014-07-09",
+    "regime": "calm",
+    "proxy_volatility": 0.08350657129743824,
+    "transaction_cost": 4.188840295424711e-06
+  },
+  {
+    "weights": [
+      0.22649013663989886,
+      0.28349319610054335,
+      0.24789529434674212,
+      0.2421213729128156
+    ],
+    "risk_shares": [
+      0.2499999327046379,
+      0.24999992442363772,
+      0.2500000505534741,
+      0.2500000923182502
+    ],
+    "risk_budget_squared_error": 2.131876535694717e-14,
+    "annualized_volatility": 0.11836182686489934,
+    "turnover": 0.016903212407158835,
+    "solver_success": true,
+    "solver_iterations": 6,
+    "covariance_method": "LedoitWolf",
+    "date": "2014-08-07",
+    "regime": "high_volatility",
+    "proxy_volatility": 0.10795904296488011,
+    "transaction_cost": 8.451606203579417e-06
+  },
+  {
+    "weights": [
+      0.23856550748451621,
+      0.2778102789427088,
+      0.24541650886121577,
+      0.23820770471155925
+    ],
+    "risk_shares": [
+      0.24999999932553316,
+      0.25000000162374625,
+      0.25000000146853335,
+      0.2499999975821873
+    ],
+    "risk_budget_squared_error": 1.1093865856701585e-17,
+    "annualized_volatility": 0.11496355220127297,
+    "turnover": 0.015760490267091143,
+    "solver_success": true,
+    "solver_iterations": 6,
+    "covariance_method": "LedoitWolf",
+    "date": "2014-09-08",
+    "regime": "calm",
+    "proxy_volatility": 0.08167244962550929,
+    "transaction_cost": 7.880245133545572e-06
+  },
+  {
+    "weights": [
+      0.2387760931614845,
+      0.2790042613708906,
+      0.24079778130075397,
+      0.24142186416687078
+    ],
+    "risk_shares": [
+      0.25000000162500635,
+      0.24999999998190783,
+      0.2499999998472277,
+      0.24999999854585814
+    ],
+    "risk_budget_squared_error": 4.7788408998402926e-18,
+    "annualized_volatility": 0.11532401673149902,
+    "turnover": 0.007298819574170501,
+    "solver_success": true,
+    "solver_iterations": 7,
+    "covariance_method": "LedoitWolf",
+    "date": "2014-10-07",
+    "regime": "high_volatility",
+    "proxy_volatility": 0.13024904226781125,
+    "transaction_cost": 3.6494097870852502e-06
+  },
+  {
+    "weights": [
+      0.23492689183098955,
+      0.2812933877375524,
+      0.2462008409940874,
+      0.2375788794373706
+    ],
+    "risk_shares": [
+      0.24999999884528573,
+      0.2500000006481037,
+      0.25000000038678416,
+      0.25000000011982654
+    ],
+    "risk_budget_squared_error": 1.9173638103566745e-18,
+    "annualized_volatility": 0.11813003974534882,
+    "turnover": 0.08029599500953896,
+    "solver_success": true,
+    "solver_iterations": 6,
+    "covariance_method": "LedoitWolf",
+    "date": "2014-11-05",
+    "regime": "high_volatility",
+    "proxy_volatility": 0.1538079664426334,
+    "transaction_cost": 4.0147997504769486e-05
+  },
+  {
+    "weights": [
+      0.23967360669713725,
+      0.2753329912561662,
+      0.2484927883536273,
+      0.2365006136930693
+    ],
+    "risk_shares": [
+      0.24999999996779698,
+      0.25000000005015666,
+      0.25000000008576795,
+      0.24999999989627844
+    ],
+    "risk_budget_squared_error": 2.1667027353681378e-20,
+    "annualized_volatility": 0.11622966349014827,
+    "turnover": 0.01795884280285065,
+    "solver_success": true,
+    "solver_iterations": 6,
+    "covariance_method": "LedoitWolf",
+    "date": "2014-12-05",
+    "regime": "calm",
+    "proxy_volatility": 0.07078234981892038,
+    "transaction_cost": 8.979421401425324e-06
+  },
+  {
+    "weights": [
+      0.23934663409667056,
+      0.2696516598775557,
+      0.2590784658958835,
+      0.23192324012989024
+    ],
+    "risk_shares": [
+      0.25000000029564257,
+      0.24999999931974634,
+      0.25000000035791703,
+      0.25000000002669404
+    ],
+    "risk_budget_squared_error": 6.789667387952651e-19,
+    "annualized_volatility": 0.1230602550691063,
+    "turnover": 0.014659452607872353,
+    "solver_success": true,
+    "solver_iterations": 7,
+    "covariance_method": "LedoitWolf",
+    "date": "2015-01-07",
+    "regime": "high_volatility",
+    "proxy_volatility": 0.18637516012753286,
+    "transaction_cost": 7.329726303936177e-06
+  },
+  {
+    "weights": [
+      0.22378536514392214,
+      0.27342814608678706,
+      0.2693763391290672,
+      0.23341014964022364
+    ],
+    "risk_shares": [
+      0.2499999997263876,
+      0.2500000060336599,
+      0.24999999936194103,
+      0.24999999487801133
+    ],
+    "risk_budget_squared_error": 6.312180274600688e-17,
+    "annualized_volatility": 0.1315258644258108,
+    "turnover": 0.052963050930259326,
+    "solver_success": true,
+    "solver_iterations": 6,
+    "covariance_method": "LedoitWolf",
+    "date": "2015-02-06",
+    "regime": "crisis",
+    "proxy_volatility": 0.252652561303536,
+    "transaction_cost": 2.6481525465129663e-05
+  },
+  {
+    "weights": [
+      0.22133497529796953,
+      0.27129033768067895,
+      0.27589951881844305,
+      0.2314751682029084
+    ],
+    "risk_shares": [
+      0.25000000013724283,
+      0.25000000088366786,
+      0.25000000033107933,
+      0.24999999864800984
+    ],
+    "risk_budget_squared_error": 2.737195395075075e-18,
+    "annualized_volatility": 0.1308948381627484,
+    "turnover": 0.015228543271392253,
+    "solver_success": true,
+    "solver_iterations": 6,
+    "covariance_method": "LedoitWolf",
+    "date": "2015-03-10",
+    "regime": "high_volatility",
+    "proxy_volatility": 0.11241388881914521,
+    "transaction_cost": 7.614271635696126e-06
+  },
+  {
+    "weights": [
+      0.22963432551556226,
+      0.26804415582901614,
+      0.27686713026298115,
+      0.2254543883924405
+    ],
+    "risk_shares": [
+      0.2499999995455623,
+      0.250000000365055,
+      0.24999999996597716,
+      0.2500000001234055
+    ],
+    "risk_budget_squared_error": 3.561652480241038e-19,
+    "annualized_volatility": 0.13351644688292044,
+    "turnover": 0.030568386263419345,
+    "solver_success": true,
+    "solver_iterations": 6,
+    "covariance_method": "LedoitWolf",
+    "date": "2015-04-09",
+    "regime": "high_volatility",
+    "proxy_volatility": 0.15805083725980887,
+    "transaction_cost": 1.5284193131709672e-05
+  },
+  {
+    "weights": [
+      0.21441507900438328,
+      0.26993869000847054,
+      0.27468974520914824,
+      0.24095648577799794
+    ],
+    "risk_shares": [
+      0.2499999990737248,
+      0.2500000004905993,
+      0.25000000094626584,
+      0.24999999948941015
+    ],
+    "risk_budget_squared_error": 2.2547944341322e-18,
+    "annualized_volatility": 0.13791248310513043,
+    "turnover": 0.06065101230284853,
+    "solver_success": true,
+    "solver_iterations": 7,
+    "covariance_method": "LedoitWolf",
+    "date": "2015-05-08",
+    "regime": "crisis",
+    "proxy_volatility": 0.21827324198143835,
+    "transaction_cost": 3.0325506151424266e-05
+  },
+  {
+    "weights": [
+      0.21314915859436223,
+      0.2715914769378821,
+      0.2771269365255344,
+      0.23813242794222123
+    ],
+    "risk_shares": [
+      0.24999999995412012,
+      0.2500000002478799,
+      0.24999999981791887,
+      0.24999999998008118
+    ],
+    "risk_budget_squared_error": 9.709969663396245e-20,
+    "annualized_volatility": 0.14025312357796843,
+    "turnover": 0.02950184821660906,
+    "solver_success": true,
+    "solver_iterations": 6,
+    "covariance_method": "LedoitWolf",
+    "date": "2015-06-09",
+    "regime": "high_volatility",
+    "proxy_volatility": 0.12703656642609729,
+    "transaction_cost": 1.475092410830453e-05
+  },
+  {
+    "weights": [
+      0.21273970820013133,
+      0.27395429879531485,
+      0.2752584158646377,
+      0.2380475771399162
+    ],
+    "risk_shares": [
+      0.24999999991665892,
+      0.2500000000327364,
+      0.25000000002140677,
+      0.25000000002919787
+    ],
+    "risk_budget_squared_error": 9.328174786577858e-21,
+    "annualized_volatility": 0.14326996904674977,
+    "turnover": 0.029700769670523403,
+    "solver_success": true,
+    "solver_iterations": 6,
+    "covariance_method": "LedoitWolf",
+    "date": "2015-07-09",
+    "regime": "high_volatility",
+    "proxy_volatility": 0.13150142055520803,
+    "transaction_cost": 1.48503848352617e-05
+  },
+  {
+    "weights": [
+      0.21237354959347862,
+      0.26886552779361417,
+      0.28442011414056145,
+      0.2343408084723458
+    ],
+    "risk_shares": [
+      0.25000000303912107,
+      0.2500000029204829,
+      0.2499999931900294,
+      0.2500000008503667
+    ],
+    "risk_budget_squared_error": 6.486430024991546e-17,
+    "annualized_volatility": 0.14680713840590381,
+    "turnover": 0.03692395873844925,
+    "solver_success": true,
+    "solver_iterations": 5,
+    "covariance_method": "LedoitWolf",
+    "date": "2015-08-07",
+    "regime": "high_volatility",
+    "proxy_volatility": 0.1639547228125119,
+    "transaction_cost": 1.8461979369224626e-05
+  },
+  {
+    "weights": [
+      0.21443786377912832,
+      0.28320882035170986,
+      0.27373055702455873,
+      0.22862275884460312
+    ],
+    "risk_shares": [
+      0.25000000001742023,
+      0.2499999999762022,
+      0.24999999999048886,
+      0.2500000000158887
+    ],
+    "risk_budget_squared_error": 1.2127115738950318e-21,
+    "annualized_volatility": 0.1775725526741419,
+    "turnover": 0.0483858761870124,
+    "solver_success": true,
+    "solver_iterations": 9,
+    "covariance_method": "LedoitWolf",
+    "date": "2015-09-08",
+    "regime": "crisis",
+    "proxy_volatility": 0.37651204866577065,
+    "transaction_cost": 2.41929380935062e-05
+  },
+  {
+    "weights": [
+      0.21510388170052613,
+      0.27849289845384734,
+      0.2741864164262594,
+      0.23221680341936718
+    ],
+    "risk_shares": [
+      0.2500000000008513,
+      0.25000000000052325,
+      0.2500000000002674,
+      0.24999999999835806
+    ],
+    "risk_budget_squared_error": 3.7659896775466386e-24,
+    "annualized_volatility": 0.1834168495114996,
+    "turnover": 0.026272037460667808,
+    "solver_success": true,
+    "solver_iterations": 7,
+    "covariance_method": "LedoitWolf",
+    "date": "2015-10-07",
+    "regime": "high_volatility",
+    "proxy_volatility": 0.186183939279634,
+    "transaction_cost": 1.3136018730333903e-05
+  },
+  {
+    "weights": [
+      0.21110367830561408,
+      0.28127354662247017,
+      0.27637751570901636,
+      0.23124525936289944
+    ],
+    "risk_shares": [
+      0.24999999849441965,
+      0.24999999194698072,
+      0.2500000019159442,
+      0.2500000076426553
+    ],
+    "risk_budget_squared_error": 1.2919891364791569e-16,
+    "annualized_volatility": 0.18558119765539977,
+    "turnover": 0.06834018454406987,
+    "solver_success": true,
+    "solver_iterations": 6,
+    "covariance_method": "LedoitWolf",
+    "date": "2015-11-05",
+    "regime": "high_volatility",
+    "proxy_volatility": 0.19871165086984935,
+    "transaction_cost": 3.4170092272034936e-05
+  },
+  {
+    "weights": [
+      0.21187878840904253,
+      0.2835049080288425,
+      0.27370986619369575,
+      0.23090643736841931
+    ],
+    "risk_shares": [
+      0.2500000022249772,
+      0.2499999991728919,
+      0.24999999785328839,
+      0.2500000007488425
+    ],
+    "risk_budget_squared_error": 1.0803767193296535e-17,
+    "annualized_volatility": 0.19115420688045726,
+    "turnover": 0.015530974314953677,
+    "solver_success": true,
+    "solver_iterations": 7,
+    "covariance_method": "LedoitWolf",
+    "date": "2015-12-07",
+    "regime": "high_volatility",
+    "proxy_volatility": 0.18103962591633008,
+    "transaction_cost": 7.765487157476838e-06
+  },
+  {
+    "weights": [
+      0.21216618689709218,
+      0.2895881406082641,
+      0.2669626654651864,
+      0.23128300702945723
+    ],
+    "risk_shares": [
+      0.24999999974368686,
+      0.24999999340889653,
+      0.250000006177902,
+      0.25000000066951455
+    ],
+    "risk_budget_squared_error": 8.212306450630171e-17,
+    "annualized_volatility": 0.19132018212040303,
+    "turnover": 0.04279128580033145,
+    "solver_success": true,
+    "solver_iterations": 6,
+    "covariance_method": "LedoitWolf",
+    "date": "2016-01-07",
+    "regime": "high_volatility",
+    "proxy_volatility": 0.1844778156154781,
+    "transaction_cost": 2.1395642900165725e-05
+  },
+  {
+    "weights": [
+      0.21751817097342271,
+      0.30015569999623337,
+      0.25656736093966376,
+      0.22575876809068005
+    ],
+    "risk_shares": [
+      0.250000000081278,
+      0.2500000001380361,
+      0.24999999995421626,
+      0.24999999982646975
+    ],
+    "risk_budget_squared_error": 5.786896766827928e-20,
+    "annualized_volatility": 0.19755631746649407,
+    "turnover": 0.030915463022588963,
+    "solver_success": true,
+    "solver_iterations": 6,
+    "covariance_method": "LedoitWolf",
+    "date": "2016-02-08",
+    "regime": "crisis",
+    "proxy_volatility": 0.293685010370089,
+    "transaction_cost": 1.5457731511294482e-05
+  }
+]

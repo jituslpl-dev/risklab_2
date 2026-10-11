@@ -1,0 +1,17 @@
+{
+  "block_bootstrap_forecasts.csv": "2434a5b585d4372165b20e5d2bb26bc3b01c6f19f93ae85a44d107dc44fbc0a4",
+  "cvar_returns.csv": "8c2842f6179c47c38ba0479c691e1870f96ac23c291730e03a3cc67c07b0b4bd",
+  "equal_weight_returns.csv": "60bebf8822203b7af066a33f43a2a4f0488da3970022c3d68d7bff9a709b8a10",
+  "filtered_historical_forecasts.csv": "f2582a20aadfa10664b7a827cdbd7bddf88e0d130d5b0cd6ba0eeaf7f0104396",
+  "historical_forecasts.csv": "1c6bf01313620ea8530384ea727e90379306a15abc353b02cf36cc18b6da80e4",
+  "hrp_returns.csv": "cf0b4803927a6db2dddf33ecbf04dcfd3998315530c9d6c192207331ab60fcd4",
+  "monte_carlo_forecasts.csv": "d9300aa7658aacfcd13eea487aaed69126c31c4cbe0feae6d65d3dcfd3446345",
+  "parametric_forecasts.csv": "d207bcac3e07e8260b7f548f9cfdee6b83a54eca223b472b0468ce6002704524",
+  "risk_parity_returns.csv": "ac2dc7dbb1e96c62f6ba645ccb668a05bb32ceb7f299df808e6180c778640ee1",
+  "student_t_forecasts.csv": "e6caaf4695b2e99229e0464cbf890abf45371ce1c24f325baa42e150e1329eb9",
+  "cvar_rebalances.json": "af803139d6b224868651a5841354d20ee2aea5dac1df6f33d737a1d76b3cd481",
+  "enhancements.json": "2de33adb04de8d537b92660130e65cd33b721e6d5a9b4a1782b1f6e7b95785de",
+  "hrp_rebalances.json": "9a3d2bf745a52a5cb79a1283f872046124643427355a6f5773d9ee198b0a4100",
+  "rebalances.json": "4bb85bf06ff388df01608b67f646a8cb6c789113dde8b060962e3b1be31e8004",
+  "summary.json": "ba6af6258056a73b568580408b297c68eb67fa52caca52a50abc34fd371c5245"
+}

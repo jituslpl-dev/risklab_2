@@ -1,0 +1,237 @@
+{
+  "source": {
+    "type": "synthetic",
+    "seed": 42
+  },
+  "rows": 1512,
+  "start": "2018-01-01",
+  "end": "2023-10-17",
+  "asset_classes": {
+    "Equity": "equity",
+    "Bond": "bond",
+    "Gold": "commodity",
+    "FX": "fx"
+  },
+  "baseline_weights": {
+    "Equity": 0.25,
+    "Bond": 0.25,
+    "Gold": 0.25,
+    "FX": 0.25
+  },
+  "confidence": 0.99,
+  "risk_estimates": {
+    "historical": {
+      "method": "historical",
+      "confidence": 0.99,
+      "horizon_days": 1,
+      "var": 0.021030689176682337,
+      "expected_shortfall": 0.026075810715106208,
+      "observations": 252
+    },
+    "parametric": {
+      "method": "gaussian_parametric",
+      "confidence": 0.99,
+      "horizon_days": 1,
+      "var": 0.017423681478586386,
+      "expected_shortfall": 0.020013638753692897,
+      "observations": 252
+    },
+    "monte_carlo": {
+      "method": "monte_carlo_normal",
+      "confidence": 0.99,
+      "horizon_days": 1,
+      "var": 0.01752455033081258,
+      "expected_shortfall": 0.0203418780358905,
+      "observations": 252
+    }
+  },
+  "student_t_monte_carlo": {
+    "method": "monte_carlo_student_t",
+    "confidence": 0.99,
+    "horizon_days": 1,
+    "var": 0.020812252920846663,
+    "expected_shortfall": 0.026821183543077956,
+    "observations": 252
+  },
+  "portfolio_statistics": {
+    "annualized_volatility": 0.08527728406024666,
+    "ewma_annualized_volatility": 0.13561554880805696,
+    "annualized_geometric_return": 0.004257226757083066,
+    "maximum_drawdown": -0.19154612951730277,
+    "terminal_wealth": 1.0258167683308155
+  },
+  "pca_attribution": {
+    "portfolio_daily_variance": 2.8857996732904747e-05,
+    "component_variances": [
+      1.7608648472426098e-05,
+      6.824323442794034e-06,
+      2.4117353380611145e-06,
+      2.0132894796234907e-06
+    ],
+    "component_portfolio_variance_shares": [
+      0.6101826344844025,
+      0.23647945856937247,
+      0.08357251407237086,
+      0.06976539287385386
+    ],
+    "pca_explained_variance_ratios": [
+      0.5200639050091096,
+      0.3137730539300189,
+      0.10468066766803791,
+      0.06148237339283359
+    ],
+    "loadings": [
+      [
+        0.9835807927591507,
+        -0.07885490671091883,
+        0.04080382326436034,
+        0.15711707676094305
+      ],
+      [
+        -0.006984654145792137,
+        0.07993323325748547,
+        0.9819674709557459,
+        -0.17117762357342292
+      ],
+      [
+        -0.1670744063729381,
+        -0.06477500867071928,
+        0.17291421880047952,
+        0.9684993618601192
+      ],
+      [
+        0.06786885483692007,
+        0.9915627968819345,
+        -0.06461893629894488,
+        0.08956244444181416
+      ]
+    ],
+    "asset_variance_contributions": {
+      "Equity": 1.533630050456949e-05,
+      "Bond": 1.0272025395773555e-06,
+      "Gold": 8.572985976792885e-06,
+      "FX": 3.92150771196501e-06
+    },
+    "asset_daily_volatility_contributions": {
+      "Equity": 0.0028548777752944714,
+      "Bond": 0.00019121545643238243,
+      "Gold": 0.0015958755585002286,
+      "FX": 0.000729995164687799
+    }
+  },
+  "stress_tests": [
+    {
+      "scenario": "equity_crash",
+      "portfolio_return": -0.04,
+      "pnl": -40000.0,
+      "asset_return_contributions": {
+        "Equity": -0.0625,
+        "Bond": 0.01,
+        "Gold": 0.02,
+        "FX": -0.0075
+      }
+    },
+    {
+      "scenario": "rates_inflation",
+      "portfolio_return": -0.014999999999999996,
+      "pnl": -14999.999999999996,
+      "asset_return_contributions": {
+        "Equity": -0.03,
+        "Bond": -0.0225,
+        "Gold": 0.025,
+        "FX": 0.0125
+      }
+    },
+    {
+      "scenario": "liquidity_freeze",
+      "portfolio_return": -0.09,
+      "pnl": -90000.0,
+      "asset_return_contributions": {
+        "Equity": -0.045,
+        "Bond": -0.015,
+        "Gold": -0.02,
+        "FX": -0.01
+      }
+    },
+    {
+      "scenario": "stagflation",
+      "portfolio_return": -0.022500000000000003,
+      "pnl": -22500.000000000004,
+      "asset_return_contributions": {
+        "Equity": -0.05,
+        "Bond": -0.03,
+        "Gold": 0.0375,
+        "FX": 0.02
+      }
+    }
+  ],
+  "var_backtests": {
+    "historical": {
+      "observations": 1260,
+      "exceptions": 18,
+      "expected_exceptions": 12.600000000000012,
+      "exception_rate": 0.014285714285714285,
+      "kupiec_lr": 2.0637084108766715,
+      "kupiec_pvalue": 0.15084268242231086,
+      "exact_binomial_pvalue": 0.15326591759061398,
+      "christoffersen_independence_pvalue": 0.46991414511817187,
+      "conditional_coverage_pvalue": 0.2744618150902277,
+      "warning": null
+    },
+    "parametric": {
+      "observations": 1260,
+      "exceptions": 27,
+      "expected_exceptions": 12.600000000000012,
+      "exception_rate": 0.02142857142857143,
+      "kupiec_lr": 12.522439962878536,
+      "kupiec_pvalue": 0.00040209345089566495,
+      "exact_binomial_pvalue": 0.0003042821483106046,
+      "christoffersen_independence_pvalue": 0.2766372473056047,
+      "conditional_coverage_pvalue": 0.00105629462009874,
+      "warning": null
+    },
+    "monte_carlo": {
+      "observations": 1260,
+      "exceptions": 27,
+      "expected_exceptions": 12.600000000000012,
+      "exception_rate": 0.02142857142857143,
+      "kupiec_lr": 12.522439962878536,
+      "kupiec_pvalue": 0.00040209345089566495,
+      "exact_binomial_pvalue": 0.0003042821483106046,
+      "christoffersen_independence_pvalue": 0.2766372473056047,
+      "conditional_coverage_pvalue": 0.00105629462009874,
+      "warning": null
+    }
+  },
+  "risk_parity": {
+    "rebalances": 60,
+    "total_traded_notional_multiple": 3.2822161544095834,
+    "net_return_statistics": {
+      "annualized_volatility": 0.07168900152042143,
+      "ewma_annualized_volatility": 0.0946340875877435,
+      "annualized_geometric_return": 0.014818319454540818,
+      "maximum_drawdown": -0.16498603950916124,
+      "terminal_wealth": 1.0763202034342005
+    },
+    "equal_weight_net_statistics": {
+      "annualized_volatility": 0.09189517987112993,
+      "ewma_annualized_volatility": 0.1328829256650696,
+      "annualized_geometric_return": 0.006371760958973072,
+      "maximum_drawdown": -0.19109027471063156,
+      "terminal_wealth": 1.032267393316832
+    },
+    "mean_risk_budget_error": 7.071503092370132e-15,
+    "regime_rebalance_counts": {
+      "calm": 38,
+      "high_volatility": 22
+    }
+  },
+  "limitations": [
+    "One-day backtests; historical tail estimates have sparse observations at 99%.",
+    "Static linear P&L risk models; Gaussian assumptions can fail in fat-tailed markets.",
+    "Stress shocks are hypothetical asset-class return shocks, not derivative repricing.",
+    "Risk parity minimizes risk-budget error under constraints; exact parity is not guaranteed.",
+    "Regime labels use trailing data and fixed thresholds, not future returns.",
+    "Research analysis, not a production capital calculation or investment recommendation."
+  ]
+}

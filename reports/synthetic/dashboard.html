@@ -1,0 +1,33 @@
+<!doctype html><html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width">
+<title>RiskLab 2 research report</title><style>body{font:17px system-ui;max-width:1100px;margin:40px auto;padding:20px;color:#17334b;background:#f4f7fa}
+table{border-collapse:collapse;background:white;width:100%}td,th{padding:12px;text-align:left;border-bottom:1px solid #ddd}img{max-width:100%}pre{white-space:pre-wrap;background:white;padding:20px}</style>
+<h1>RiskLab 2 · Portfolio risk research</h1><p>2018-01-01 to 2023-10-17 · 1512 observations · 99% VaR</p>
+<p>Measured research results. Cross-asset validation is synthetic; public sample is historical equities only.</p>
+<h2>Rolling forecast comparison</h2><table><tr><th>Model</th><th>Exceptions</th><th>Rate</th><th>Coverage p</th><th>Quantile loss</th></tr><tr><td>historical</td><td>18</td><td>1.43%</td><td>0.1508</td><td>0.000208</td></tr><tr><td>parametric</td><td>27</td><td>2.14%</td><td>0.0004021</td><td>0.000211</td></tr><tr><td>monte_carlo</td><td>27</td><td>2.14%</td><td>0.0004021</td><td>0.000211</td></tr><tr><td>filtered_historical</td><td>14</td><td>1.11%</td><td>0.6969</td><td>0.000204</td></tr><tr><td>block_bootstrap</td><td>18</td><td>1.43%</td><td>0.1508</td><td>0.000207</td></tr><tr><td>student_t</td><td>18</td><td>1.43%</td><td>0.1508</td><td>0.000195</td></tr></table>
+<p>Lower quantile loss is preferable on this shared sample. Coverage non-rejection does not establish correctness. No model is selected using these test results.</p>
+<h2>Four strategy comparison</h2><img alt="Four walk-forward strategies" src="figures/enhanced_wealth.png">
+<h2>Tail attribution and reverse stress</h2><pre>{
+  &quot;ES attribution&quot;: {
+    &quot;expected_shortfall&quot;: 0.0260758107151062,
+    &quot;asset_contributions&quot;: [
+      0.016797220868061995,
+      -0.0007434024767378014,
+      0.006459621210967815,
+      0.003562371112814197
+    ],
+    &quot;reconciliation_error&quot;: 3.469446951953614e-18
+  },
+  &quot;reverse stress&quot;: {
+    &quot;loss_target&quot;: 0.1,
+    &quot;asset_shocks&quot;: [
+      -0.20810659526220712,
+      -0.022327476361361155,
+      -0.1010618751353883,
+      -0.0685040532410435
+    ],
+    &quot;portfolio_loss&quot;: 0.1,
+    &quot;mahalanobis_distance&quot;: 13.110690682063767,
+    &quot;interpretation&quot;: &quot;Covariance-distance severity, not a calibrated event probability.&quot;
+  }
+}</pre>
+<p>See summary.json and enhancements.json for costs, constraints, full strategy results and uncertainty.</p></html>

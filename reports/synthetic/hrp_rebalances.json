@@ -1,0 +1,1802 @@
+[
+  {
+    "weights": [
+      0.09169163444834201,
+      0.43740604426777996,
+      0.11513001423106174,
+      0.3557723070528163
+    ],
+    "risk_shares": [
+      0.08840931792637077,
+      0.39460999653110534,
+      0.16146693365907439,
+      0.3555137518834495
+    ],
+    "risk_budget_squared_error": 0.0659948553019959,
+    "annualized_volatility": 0.0315472399443913,
+    "turnover": 1.0,
+    "solver_success": true,
+    "solver_iterations": 0,
+    "covariance_method": "LedoitWolf",
+    "cluster_order": [
+      0,
+      3,
+      1,
+      2
+    ],
+    "date": "2018-12-19",
+    "regime": "calm",
+    "proxy_volatility": 0.025856242360115817,
+    "transaction_cost": 0.0005
+  },
+  {
+    "weights": [
+      0.09528708973383154,
+      0.43158254213503117,
+      0.1161534957794475,
+      0.3569768723516898
+    ],
+    "risk_shares": [
+      0.09243567792961555,
+      0.3926198963552211,
+      0.15723843713596164,
+      0.35770598857920166
+    ],
+    "risk_budget_squared_error": 0.0653722379466759,
+    "annualized_volatility": 0.03249702108316013,
+    "turnover": 0.025603382233352873,
+    "solver_success": true,
+    "solver_iterations": 0,
+    "covariance_method": "LedoitWolf",
+    "cluster_order": [
+      0,
+      3,
+      1,
+      2
+    ],
+    "date": "2019-01-17",
+    "regime": "calm",
+    "proxy_volatility": 0.04131388606504877,
+    "transaction_cost": 1.2801691116676436e-05
+  },
+  {
+    "weights": [
+      0.09311370303018124,
+      0.4430100396960397,
+      0.11227514551791892,
+      0.3516011117558602
+    ],
+    "risk_shares": [
+      0.09178600062262418,
+      0.40755578846623436,
+      0.15006734670330038,
+      0.350590864207841
+    ],
+    "risk_budget_squared_error": 0.06996055323519974,
+    "annualized_volatility": 0.03274706652956494,
+    "turnover": 0.02707821450402427,
+    "solver_success": true,
+    "solver_iterations": 0,
+    "covariance_method": "LedoitWolf",
+    "cluster_order": [
+      0,
+      3,
+      1,
+      2
+    ],
+    "date": "2019-02-15",
+    "regime": "calm",
+    "proxy_volatility": 0.04539404185658543,
+    "transaction_cost": 1.3539107252012134e-05
+  },
+  {
+    "weights": [
+      0.09871391790735266,
+      0.4219687890365906,
+      0.10535031475982301,
+      0.3739669782962338
+    ],
+    "risk_shares": [
+      0.09159454815840529,
+      0.3908927676921102,
+      0.1371948150532111,
+      0.38031786909627335
+    ],
+    "risk_budget_squared_error": 0.0746508159177554,
+    "annualized_volatility": 0.0319788455032136,
+    "turnover": 0.06156692294537096,
+    "solver_success": true,
+    "solver_iterations": 0,
+    "covariance_method": "LedoitWolf",
+    "cluster_order": [
+      1,
+      2,
+      0,
+      3
+    ],
+    "date": "2019-03-18",
+    "regime": "calm",
+    "proxy_volatility": 0.04914639708136441,
+    "transaction_cost": 3.0783461472685484e-05
+  },
+  {
+    "weights": [
+      0.09566404929533828,
+      0.4295632811322642,
+      0.10333905225432201,
+      0.3714336173180755
+    ],
+    "risk_shares": [
+      0.09604480018544968,
+      0.3914265425183533,
+      0.14200862005194362,
+      0.3705200372442534
+    ],
+    "risk_budget_squared_error": 0.0698908879990754,
+    "annualized_volatility": 0.03311435665794177,
+    "turnover": 0.020018582667672924,
+    "solver_success": true,
+    "solver_iterations": 0,
+    "covariance_method": "LedoitWolf",
+    "cluster_order": [
+      1,
+      2,
+      0,
+      3
+    ],
+    "date": "2019-04-16",
+    "regime": "calm",
+    "proxy_volatility": 0.06174951594116171,
+    "transaction_cost": 1.0009291333836462e-05
+  },
+  {
+    "weights": [
+      0.0954145709017844,
+      0.43279699600998434,
+      0.10554100060730033,
+      0.36624743248093095
+    ],
+    "risk_shares": [
+      0.09372501692097618,
+      0.40092284932309796,
+      0.13979931836668139,
+      0.3655528153892443
+    ],
+    "risk_budget_squared_error": 0.07269622016098053,
+    "annualized_volatility": 0.032888528764766896,
+    "turnover": 0.019429609200738468,
+    "solver_success": true,
+    "solver_iterations": 0,
+    "covariance_method": "LedoitWolf",
+    "cluster_order": [
+      1,
+      2,
+      0,
+      3
+    ],
+    "date": "2019-05-15",
+    "regime": "calm",
+    "proxy_volatility": 0.030889094977175444,
+    "transaction_cost": 9.714804600369235e-06
+  },
+  {
+    "weights": [
+      0.09112934167466924,
+      0.4358804923764906,
+      0.1079851476642858,
+      0.3650050182845543
+    ],
+    "risk_shares": [
+      0.09409722637920218,
+      0.40777441083596194,
+      0.14158431858489345,
+      0.35654404419994234
+    ],
+    "risk_budget_squared_error": 0.07230403286847378,
+    "annualized_volatility": 0.0327891349555154,
+    "turnover": 0.03798969167828946,
+    "solver_success": true,
+    "solver_iterations": 0,
+    "covariance_method": "LedoitWolf",
+    "cluster_order": [
+      0,
+      3,
+      1,
+      2
+    ],
+    "date": "2019-06-13",
+    "regime": "calm",
+    "proxy_volatility": 0.050825757386606434,
+    "transaction_cost": 1.899484583914473e-05
+  },
+  {
+    "weights": [
+      0.09821333182561508,
+      0.42417048037002497,
+      0.10617606439271035,
+      0.37144012341164956
+    ],
+    "risk_shares": [
+      0.09405111153133486,
+      0.3920010493084184,
+      0.1439039248162541,
+      0.3700439143439927
+    ],
+    "risk_budget_squared_error": 0.07015127235972694,
+    "annualized_volatility": 0.032118644635255184,
+    "turnover": 0.027988002677966056,
+    "solver_success": true,
+    "solver_iterations": 0,
+    "covariance_method": "LedoitWolf",
+    "cluster_order": [
+      1,
+      2,
+      0,
+      3
+    ],
+    "date": "2019-07-12",
+    "regime": "calm",
+    "proxy_volatility": 0.026647133671109883,
+    "transaction_cost": 1.3994001338983029e-05
+  },
+  {
+    "weights": [
+      0.11705518657022196,
+      0.4240421560259654,
+      0.11057557167761953,
+      0.3483270857261931
+    ],
+    "risk_shares": [
+      0.12183855351034632,
+      0.40107789387828024,
+      0.14423848893955543,
+      0.33284506367181804
+    ],
+    "risk_budget_squared_error": 0.05729868818159339,
+    "annualized_volatility": 0.033411012172493336,
+    "turnover": 0.03482241716649301,
+    "solver_success": true,
+    "solver_iterations": 0,
+    "covariance_method": "LedoitWolf",
+    "cluster_order": [
+      1,
+      2,
+      0,
+      3
+    ],
+    "date": "2019-08-12",
+    "regime": "calm",
+    "proxy_volatility": 0.041425945686985315,
+    "transaction_cost": 1.7411208583246503e-05
+  },
+  {
+    "weights": [
+      0.10454737639371411,
+      0.47630609934341894,
+      0.11770090245537111,
+      0.3014456218074958
+    ],
+    "risk_shares": [
+      0.1330405710057358,
+      0.4800217050598689,
+      0.14856239480208971,
+      0.2383753291323055
+    ],
+    "risk_budget_squared_error": 0.07701421355038299,
+    "annualized_volatility": 0.030617058792214064,
+    "turnover": 0.11248788230461902,
+    "solver_success": true,
+    "solver_iterations": 0,
+    "covariance_method": "LedoitWolf",
+    "cluster_order": [
+      0,
+      3,
+      1,
+      2
+    ],
+    "date": "2019-09-10",
+    "regime": "calm",
+    "proxy_volatility": 0.03287754262551241,
+    "transaction_cost": 5.6243941152309505e-05
+  },
+  {
+    "weights": [
+      0.10215429258610394,
+      0.47258048650442,
+      0.11499353423706343,
+      0.3102716866724126
+    ],
+    "risk_shares": [
+      0.1240916456111133,
+      0.4840978666656696,
+      0.14000143216107047,
+      0.2518090555621465
+    ],
+    "risk_budget_squared_error": 0.08275768249097762,
+    "annualized_volatility": 0.030340667628474396,
+    "turnover": 0.038691642883221286,
+    "solver_success": true,
+    "solver_iterations": 0,
+    "covariance_method": "LedoitWolf",
+    "cluster_order": [
+      0,
+      3,
+      1,
+      2
+    ],
+    "date": "2019-10-09",
+    "regime": "calm",
+    "proxy_volatility": 0.024629652434493547,
+    "transaction_cost": 1.9345821441610644e-05
+  },
+  {
+    "weights": [
+      0.10454305729258938,
+      0.46264311180790285,
+      0.11889006632344848,
+      0.31392376457605936
+    ],
+    "risk_shares": [
+      0.12502002791457387,
+      0.47487009109870154,
+      0.13876149575505028,
+      0.26134838523167425
+    ],
+    "risk_budget_squared_error": 0.0786893419672324,
+    "annualized_volatility": 0.03129158655524641,
+    "turnover": 0.04474646168956094,
+    "solver_success": true,
+    "solver_iterations": 0,
+    "covariance_method": "LedoitWolf",
+    "cluster_order": [
+      0,
+      3,
+      1,
+      2
+    ],
+    "date": "2019-11-07",
+    "regime": "calm",
+    "proxy_volatility": 0.04182300585224822,
+    "transaction_cost": 2.2373230844780466e-05
+  },
+  {
+    "weights": [
+      0.10275032299716962,
+      0.46326862713102274,
+      0.12009534477079903,
+      0.31388570510100855
+    ],
+    "risk_shares": [
+      0.12361775260200233,
+      0.4774614315937196,
+      0.13755245577059383,
+      0.2613683600336842
+    ],
+    "risk_budget_squared_error": 0.08048486513311279,
+    "annualized_volatility": 0.031221778797276865,
+    "turnover": 0.00787265923103414,
+    "solver_success": true,
+    "solver_iterations": 0,
+    "covariance_method": "LedoitWolf",
+    "cluster_order": [
+      0,
+      3,
+      1,
+      2
+    ],
+    "date": "2019-12-06",
+    "regime": "calm",
+    "proxy_volatility": 0.028621131727629385,
+    "transaction_cost": 3.93632961551707e-06
+  },
+  {
+    "weights": [
+      0.10896320825829217,
+      0.44130838598094085,
+      0.1289180471624581,
+      0.32081035859830886
+    ],
+    "risk_shares": [
+      0.1327176067985839,
+      0.438864486481974,
+      0.14350848918883005,
+      0.28490941753061194
+    ],
+    "risk_budget_squared_error": 0.061984063316323446,
+    "annualized_volatility": 0.037816624599350875,
+    "turnover": 0.053035121734676935,
+    "solver_success": true,
+    "solver_iterations": 0,
+    "covariance_method": "LedoitWolf",
+    "cluster_order": [
+      0,
+      3,
+      1,
+      2
+    ],
+    "date": "2020-01-06",
+    "regime": "calm",
+    "proxy_volatility": 0.09117896725677672,
+    "transaction_cost": 2.6517560867338467e-05
+  },
+  {
+    "weights": [
+      0.11274348147715953,
+      0.44370374743416974,
+      0.11439554126415362,
+      0.3291572298245171
+    ],
+    "risk_shares": [
+      0.137724011875703,
+      0.44814620175213293,
+      0.12153936146139052,
+      0.29259042491077353
+    ],
+    "risk_budget_squared_error": 0.07018389472591177,
+    "annualized_volatility": 0.038772007478885866,
+    "turnover": 0.046570050004285754,
+    "solver_success": true,
+    "solver_iterations": 0,
+    "covariance_method": "LedoitWolf",
+    "cluster_order": [
+      1,
+      2,
+      0,
+      3
+    ],
+    "date": "2020-02-04",
+    "regime": "calm",
+    "proxy_volatility": 0.061423106813670046,
+    "transaction_cost": 2.3285025002142878e-05
+  },
+  {
+    "weights": [
+      0.10162791980544718,
+      0.4455731595630653,
+      0.11996491009213127,
+      0.3328340105393562
+    ],
+    "risk_shares": [
+      0.12397487316712434,
+      0.4582846634179936,
+      0.1213615382476458,
+      0.2963789251672362
+    ],
+    "risk_budget_squared_error": 0.07796369215006928,
+    "annualized_volatility": 0.03919272436081419,
+    "turnover": 0.031415171315928456,
+    "solver_success": true,
+    "solver_iterations": 0,
+    "covariance_method": "LedoitWolf",
+    "cluster_order": [
+      0,
+      3,
+      1,
+      2
+    ],
+    "date": "2020-03-04",
+    "regime": "calm",
+    "proxy_volatility": 0.05929164224902886,
+    "transaction_cost": 1.570758565796423e-05
+  },
+  {
+    "weights": [
+      0.08833538300282762,
+      0.47686764947090976,
+      0.1205161175707833,
+      0.3142808499554793
+    ],
+    "risk_shares": [
+      0.11368562023646984,
+      0.47368171814654314,
+      0.14104390893895574,
+      0.2715887526780313
+    ],
+    "risk_budget_squared_error": 0.08095262518480126,
+    "annualized_volatility": 0.04307701000880737,
+    "turnover": 0.08655132512778807,
+    "solver_success": true,
+    "solver_iterations": 0,
+    "covariance_method": "LedoitWolf",
+    "cluster_order": [
+      0,
+      3,
+      1,
+      2
+    ],
+    "date": "2020-04-02",
+    "regime": "high_volatility",
+    "proxy_volatility": 0.11224000964963886,
+    "transaction_cost": 4.327566256389404e-05
+  },
+  {
+    "weights": [
+      0.07975697834487833,
+      0.5062219282333227,
+      0.12068812152830266,
+      0.29333297189349633
+    ],
+    "risk_shares": [
+      0.1083385794613951,
+      0.4978707694351487,
+      0.15163778580609213,
+      0.24215286529736404
+    ],
+    "risk_budget_squared_error": 0.09124457911355763,
+    "annualized_volatility": 0.046501882315170044,
+    "turnover": 0.0257876665028757,
+    "solver_success": true,
+    "solver_iterations": 0,
+    "covariance_method": "LedoitWolf",
+    "cluster_order": [
+      1,
+      2,
+      0,
+      3
+    ],
+    "date": "2020-05-01",
+    "regime": "high_volatility",
+    "proxy_volatility": 0.1096383785753136,
+    "transaction_cost": 1.289383325143785e-05
+  },
+  {
+    "weights": [
+      0.08130447160362332,
+      0.5058936667340833,
+      0.1195648792457109,
+      0.29323698241658247
+    ],
+    "risk_shares": [
+      0.1101289944090357,
+      0.493341859374153,
+      0.15261910308023816,
+      0.2439100431365731
+    ],
+    "risk_budget_squared_error": 0.0882992853881933,
+    "annualized_volatility": 0.04748689857350822,
+    "turnover": 0.009638929814731564,
+    "solver_success": true,
+    "solver_iterations": 0,
+    "covariance_method": "LedoitWolf",
+    "cluster_order": [
+      1,
+      2,
+      0,
+      3
+    ],
+    "date": "2020-06-01",
+    "regime": "calm",
+    "proxy_volatility": 0.06312410538099596,
+    "transaction_cost": 4.819464907365782e-06
+  },
+  {
+    "weights": [
+      0.0775781021710596,
+      0.525739433056485,
+      0.12008424226011362,
+      0.27659822251234184
+    ],
+    "risk_shares": [
+      0.10225399531857554,
+      0.524868537920875,
+      0.14426306891411067,
+      0.22861439784643886
+    ],
+    "risk_budget_squared_error": 0.10901923761301546,
+    "annualized_volatility": 0.04920242224400228,
+    "turnover": 0.059955049071298186,
+    "solver_success": true,
+    "solver_iterations": 0,
+    "covariance_method": "LedoitWolf",
+    "cluster_order": [
+      1,
+      2,
+      0,
+      3
+    ],
+    "date": "2020-06-30",
+    "regime": "calm",
+    "proxy_volatility": 0.06937593290611878,
+    "transaction_cost": 2.9977524535649092e-05
+  },
+  {
+    "weights": [
+      0.06987408632067534,
+      0.5443215684116948,
+      0.11893451836559774,
+      0.2668698269020321
+    ],
+    "risk_shares": [
+      0.08953381969060162,
+      0.5375766239987037,
+      0.1395213436560738,
+      0.23336821265462082
+    ],
+    "risk_budget_squared_error": 0.12093185955144138,
+    "annualized_volatility": 0.050000224805476154,
+    "turnover": 0.045373814624910025,
+    "solver_success": true,
+    "solver_iterations": 0,
+    "covariance_method": "LedoitWolf",
+    "cluster_order": [
+      1,
+      2,
+      0,
+      3
+    ],
+    "date": "2020-07-29",
+    "regime": "calm",
+    "proxy_volatility": 0.07607909186690431,
+    "transaction_cost": 2.268690731245501e-05
+  },
+  {
+    "weights": [
+      0.06779728344447486,
+      0.5502587764125441,
+      0.11400434564794827,
+      0.2679395944950328
+    ],
+    "risk_shares": [
+      0.07897524641268155,
+      0.5443837352232143,
+      0.13730217785706378,
+      0.23933884050704046
+    ],
+    "risk_budget_squared_error": 0.12872570934106972,
+    "annualized_volatility": 0.051130663897203305,
+    "turnover": 0.03084893362746463,
+    "solver_success": true,
+    "solver_iterations": 0,
+    "covariance_method": "LedoitWolf",
+    "cluster_order": [
+      1,
+      2,
+      0,
+      3
+    ],
+    "date": "2020-08-27",
+    "regime": "calm",
+    "proxy_volatility": 0.07076302334101663,
+    "transaction_cost": 1.5424466813732316e-05
+  },
+  {
+    "weights": [
+      0.07212473600771953,
+      0.562017856906108,
+      0.12049965598949575,
+      0.2453577510966768
+    ],
+    "risk_shares": [
+      0.07569269618444498,
+      0.5641334000786076,
+      0.13976467884359337,
+      0.22040922489335404
+    ],
+    "risk_budget_squared_error": 0.14209026921026294,
+    "annualized_volatility": 0.05347731019519898,
+    "turnover": 0.05257631862323124,
+    "solver_success": true,
+    "solver_iterations": 0,
+    "covariance_method": "LedoitWolf",
+    "cluster_order": [
+      1,
+      2,
+      0,
+      3
+    ],
+    "date": "2020-09-25",
+    "regime": "calm",
+    "proxy_volatility": 0.05795945316247282,
+    "transaction_cost": 2.6288159311615623e-05
+  },
+  {
+    "weights": [
+      0.07848204308664426,
+      0.5532010987529632,
+      0.13009719938914124,
+      0.2382196587712513
+    ],
+    "risk_shares": [
+      0.07307510743519706,
+      0.5590532692720025,
+      0.14044724652162227,
+      0.22742437677117816
+    ],
+    "risk_budget_squared_error": 0.13932780541564388,
+    "annualized_volatility": 0.05699151698446636,
+    "turnover": 0.06829863356717172,
+    "solver_success": true,
+    "solver_iterations": 0,
+    "covariance_method": "LedoitWolf",
+    "cluster_order": [
+      1,
+      2,
+      0,
+      3
+    ],
+    "date": "2020-10-26",
+    "regime": "calm",
+    "proxy_volatility": 0.06959815290306764,
+    "transaction_cost": 3.414931678358586e-05
+  },
+  {
+    "weights": [
+      0.07935219110965408,
+      0.5493327814029281,
+      0.12779978526451974,
+      0.2435152422228981
+    ],
+    "risk_shares": [
+      0.07720805681730722,
+      0.5544781755705644,
+      0.13877146728452167,
+      0.2295423003276067
+    ],
+    "risk_budget_squared_error": 0.13535431899355446,
+    "annualized_volatility": 0.05829951010542061,
+    "turnover": 0.02959561064510223,
+    "solver_success": true,
+    "solver_iterations": 0,
+    "covariance_method": "LedoitWolf",
+    "cluster_order": [
+      1,
+      2,
+      0,
+      3
+    ],
+    "date": "2020-11-24",
+    "regime": "calm",
+    "proxy_volatility": 0.05278970207783369,
+    "transaction_cost": 1.4797805322551117e-05
+  },
+  {
+    "weights": [
+      0.07080496223926394,
+      0.5753334840805137,
+      0.11670600189549431,
+      0.23715555178472808
+    ],
+    "risk_shares": [
+      0.05880463172542474,
+      0.6005091333730926,
+      0.12841949099334313,
+      0.21226674390813954
+    ],
+    "risk_budget_squared_error": 0.1756179402132186,
+    "annualized_volatility": 0.0542503770881172,
+    "turnover": 0.0770337588782332,
+    "solver_success": true,
+    "solver_iterations": 0,
+    "covariance_method": "LedoitWolf",
+    "cluster_order": [
+      1,
+      2,
+      0,
+      3
+    ],
+    "date": "2020-12-23",
+    "regime": "calm",
+    "proxy_volatility": 0.09155512249943186,
+    "transaction_cost": 3.8516879439116604e-05
+  },
+  {
+    "weights": [
+      0.06600183860838447,
+      0.5709201291116823,
+      0.12429014965644501,
+      0.23878788262348816
+    ],
+    "risk_shares": [
+      0.05128227539835152,
+      0.5865228911079353,
+      0.14229132213866968,
+      0.2199035113550435
+    ],
+    "risk_budget_squared_error": 0.16524334822589173,
+    "annualized_volatility": 0.05514914399559165,
+    "turnover": 0.02811183605198002,
+    "solver_success": true,
+    "solver_iterations": 0,
+    "covariance_method": "LedoitWolf",
+    "cluster_order": [
+      1,
+      2,
+      0,
+      3
+    ],
+    "date": "2021-01-21",
+    "regime": "calm",
+    "proxy_volatility": 0.08200476875840693,
+    "transaction_cost": 1.4055918025990011e-05
+  },
+  {
+    "weights": [
+      0.07034897806808108,
+      0.5641732479300976,
+      0.1194977481526162,
+      0.24598002584920514
+    ],
+    "risk_shares": [
+      0.05017149826856609,
+      0.5779400222298007,
+      0.14023768946264037,
+      0.23165079003899286
+    ],
+    "risk_budget_squared_error": 0.15986054660500473,
+    "annualized_volatility": 0.056044978312417164,
+    "turnover": 0.017762167477880883,
+    "solver_success": true,
+    "solver_iterations": 0,
+    "covariance_method": "LedoitWolf",
+    "cluster_order": [
+      1,
+      2,
+      0,
+      3
+    ],
+    "date": "2021-02-19",
+    "regime": "calm",
+    "proxy_volatility": 0.06953039213255548,
+    "transaction_cost": 8.88108373894044e-06
+  },
+  {
+    "weights": [
+      0.07209288704825857,
+      0.5544669452809022,
+      0.12478459053353758,
+      0.24865557713730158
+    ],
+    "risk_shares": [
+      0.047124059698487715,
+      0.5714540878492096,
+      0.1376471723739165,
+      0.24377468007838624
+    ],
+    "risk_budget_squared_error": 0.157153290231893,
+    "annualized_volatility": 0.055505222732144664,
+    "turnover": 0.017287606383659962,
+    "solver_success": true,
+    "solver_iterations": 0,
+    "covariance_method": "LedoitWolf",
+    "cluster_order": [
+      1,
+      2,
+      0,
+      3
+    ],
+    "date": "2021-03-22",
+    "regime": "calm",
+    "proxy_volatility": 0.08606702004090859,
+    "transaction_cost": 8.643803191829981e-06
+  },
+  {
+    "weights": [
+      0.07545360849545517,
+      0.5423640896647283,
+      0.125133354894242,
+      0.2570489469455746
+    ],
+    "risk_shares": [
+      0.04665168267729433,
+      0.5641878142936199,
+      0.12512316657165,
+      0.2640373364574358
+    ],
+    "risk_budget_squared_error": 0.15585579115048906,
+    "annualized_volatility": 0.05527550720164115,
+    "turnover": 0.016074561359521747,
+    "solver_success": true,
+    "solver_iterations": 0,
+    "covariance_method": "LedoitWolf",
+    "cluster_order": [
+      1,
+      2,
+      0,
+      3
+    ],
+    "date": "2021-04-20",
+    "regime": "calm",
+    "proxy_volatility": 0.0790300657305716,
+    "transaction_cost": 8.037280679760873e-06
+  },
+  {
+    "weights": [
+      0.07394992902122353,
+      0.5449496879600725,
+      0.12289946561309767,
+      0.25820091740560625
+    ],
+    "risk_shares": [
+      0.044823033053704796,
+      0.5711800847520498,
+      0.12240832236341159,
+      0.26158855983083373
+    ],
+    "risk_budget_squared_error": 0.16166816552768695,
+    "annualized_volatility": 0.055739945283910346,
+    "turnover": 0.02228765457931242,
+    "solver_success": true,
+    "solver_iterations": 0,
+    "covariance_method": "LedoitWolf",
+    "cluster_order": [
+      0,
+      3,
+      1,
+      2
+    ],
+    "date": "2021-05-19",
+    "regime": "calm",
+    "proxy_volatility": 0.07330853210466586,
+    "transaction_cost": 1.114382728965621e-05
+  },
+  {
+    "weights": [
+      0.08057719739786624,
+      0.5401437074771663,
+      0.12299045655284363,
+      0.2562886385721238
+    ],
+    "risk_shares": [
+      0.05220564010401411,
+      0.5608721104856281,
+      0.12349475032823132,
+      0.2634274990821265
+    ],
+    "risk_budget_squared_error": 0.15194795381056841,
+    "annualized_volatility": 0.05657403637867423,
+    "turnover": 0.02111242631099708,
+    "solver_success": true,
+    "solver_iterations": 0,
+    "covariance_method": "LedoitWolf",
+    "cluster_order": [
+      0,
+      3,
+      1,
+      2
+    ],
+    "date": "2021-06-17",
+    "regime": "calm",
+    "proxy_volatility": 0.06370480057439468,
+    "transaction_cost": 1.055621315549854e-05
+  },
+  {
+    "weights": [
+      0.08335049702087717,
+      0.5256041460027152,
+      0.1261543375995273,
+      0.26489101937688037
+    ],
+    "risk_shares": [
+      0.05781945660762189,
+      0.5487629947373914,
+      0.12754047752703937,
+      0.2658770711279473
+    ],
+    "risk_budget_squared_error": 0.14144110431495177,
+    "annualized_volatility": 0.056421528791363626,
+    "turnover": 0.041312825914320825,
+    "solver_success": true,
+    "solver_iterations": 0,
+    "covariance_method": "LedoitWolf",
+    "cluster_order": [
+      0,
+      3,
+      1,
+      2
+    ],
+    "date": "2021-07-16",
+    "regime": "calm",
+    "proxy_volatility": 0.0633127327878128,
+    "transaction_cost": 2.0656412957160414e-05
+  },
+  {
+    "weights": [
+      0.07833013479185097,
+      0.5289505332464399,
+      0.11853919606619362,
+      0.2741801358955155
+    ],
+    "risk_shares": [
+      0.057581813997513116,
+      0.5531354865754929,
+      0.11097442479256786,
+      0.2783082746344259
+    ],
+    "risk_budget_squared_error": 0.14904535050038398,
+    "annualized_volatility": 0.05696245312597351,
+    "turnover": 0.025910542122404956,
+    "solver_success": true,
+    "solver_iterations": 0,
+    "covariance_method": "LedoitWolf",
+    "cluster_order": [
+      1,
+      3,
+      0,
+      2
+    ],
+    "date": "2021-08-16",
+    "regime": "calm",
+    "proxy_volatility": 0.08784189939279362,
+    "transaction_cost": 1.2955271061202478e-05
+  },
+  {
+    "weights": [
+      0.08183063258689002,
+      0.509581172183493,
+      0.12561709292104448,
+      0.2829711023085725
+    ],
+    "risk_shares": [
+      0.07459023594711597,
+      0.5255825010172404,
+      0.133699680105887,
+      0.2661275829297567
+    ],
+    "risk_budget_squared_error": 0.12050016353063492,
+    "annualized_volatility": 0.05568026844080178,
+    "turnover": 0.019206062061998347,
+    "solver_success": true,
+    "solver_iterations": 0,
+    "covariance_method": "LedoitWolf",
+    "cluster_order": [
+      0,
+      3,
+      1,
+      2
+    ],
+    "date": "2021-09-14",
+    "regime": "calm",
+    "proxy_volatility": 0.052209036689912905,
+    "transaction_cost": 9.603031030999174e-06
+  },
+  {
+    "weights": [
+      0.07651213607134123,
+      0.5018734247351654,
+      0.11713885712279758,
+      0.30447558207069575
+    ],
+    "risk_shares": [
+      0.08499974350346881,
+      0.5033523698410096,
+      0.1452915161869761,
+      0.2663563704685455
+    ],
+    "risk_budget_squared_error": 0.10264390538530338,
+    "annualized_volatility": 0.05434597363688971,
+    "turnover": 0.04343147019360162,
+    "solver_success": true,
+    "solver_iterations": 0,
+    "covariance_method": "LedoitWolf",
+    "cluster_order": [
+      1,
+      2,
+      0,
+      3
+    ],
+    "date": "2021-10-13",
+    "regime": "calm",
+    "proxy_volatility": 0.09905201489278734,
+    "transaction_cost": 2.1715735096800808e-05
+  },
+  {
+    "weights": [
+      0.07659760380122733,
+      0.5087198742115826,
+      0.11572458416421438,
+      0.2989579378229757
+    ],
+    "risk_shares": [
+      0.08254103978573,
+      0.5025711560346007,
+      0.14859023559271653,
+      0.26629756858695286
+    ],
+    "risk_budget_squared_error": 0.10238424327568622,
+    "annualized_volatility": 0.05476648167123769,
+    "turnover": 0.0186619375070472,
+    "solver_success": true,
+    "solver_iterations": 0,
+    "covariance_method": "LedoitWolf",
+    "cluster_order": [
+      1,
+      2,
+      0,
+      3
+    ],
+    "date": "2021-11-11",
+    "regime": "calm",
+    "proxy_volatility": 0.0780113309019109,
+    "transaction_cost": 9.3309687535236e-06
+  },
+  {
+    "weights": [
+      0.07472956728440881,
+      0.5269188565396922,
+      0.1275486952875132,
+      0.2708028808883858
+    ],
+    "risk_shares": [
+      0.08764998339792648,
+      0.5231832402483984,
+      0.1533773753278486,
+      0.23578940102582657
+    ],
+    "risk_budget_squared_error": 0.1105244833650479,
+    "annualized_volatility": 0.05838785918824437,
+    "turnover": 0.06510772164825832,
+    "solver_success": true,
+    "solver_iterations": 0,
+    "covariance_method": "LedoitWolf",
+    "cluster_order": [
+      0,
+      3,
+      1,
+      2
+    ],
+    "date": "2021-12-10",
+    "regime": "high_volatility",
+    "proxy_volatility": 0.1231529184728368,
+    "transaction_cost": 3.255386082412915e-05
+  },
+  {
+    "weights": [
+      0.09393087279770614,
+      0.4663032897109904,
+      0.13735438431282257,
+      0.3024114531784809
+    ],
+    "risk_shares": [
+      0.1201094267395579,
+      0.46036388653615573,
+      0.1635358495838263,
+      0.2559908371404601
+    ],
+    "risk_budget_squared_error": 0.0686364652173571,
+    "annualized_volatility": 0.06366530005082865,
+    "turnover": 0.12454167711658513,
+    "solver_success": true,
+    "solver_iterations": 0,
+    "covariance_method": "LedoitWolf",
+    "cluster_order": [
+      0,
+      3,
+      1,
+      2
+    ],
+    "date": "2022-01-10",
+    "regime": "high_volatility",
+    "proxy_volatility": 0.10047572267240225,
+    "transaction_cost": 6.227083855829256e-05
+  },
+  {
+    "weights": [
+      0.09446384283779453,
+      0.4569992986692704,
+      0.13821721455099728,
+      0.3103196439419378
+    ],
+    "risk_shares": [
+      0.12157783600045319,
+      0.44358085952017534,
+      0.1737723458420794,
+      0.2610689586372922
+    ],
+    "risk_budget_squared_error": 0.05989897848262999,
+    "annualized_volatility": 0.06653468365770804,
+    "turnover": 0.02229119677397555,
+    "solver_success": true,
+    "solver_iterations": 0,
+    "covariance_method": "LedoitWolf",
+    "cluster_order": [
+      0,
+      3,
+      1,
+      2
+    ],
+    "date": "2022-02-08",
+    "regime": "high_volatility",
+    "proxy_volatility": 0.1009455114648057,
+    "transaction_cost": 1.1145598386987775e-05
+  },
+  {
+    "weights": [
+      0.0981271250778847,
+      0.45715259012940895,
+      0.14304006107299178,
+      0.3016802237197146
+    ],
+    "risk_shares": [
+      0.12353205114256895,
+      0.4456539011135486,
+      0.1815296243641327,
+      0.2492844233797497
+    ],
+    "risk_budget_squared_error": 0.05896329549877226,
+    "annualized_volatility": 0.06847736625235809,
+    "turnover": 0.028805599410059515,
+    "solver_success": true,
+    "solver_iterations": 0,
+    "covariance_method": "LedoitWolf",
+    "cluster_order": [
+      0,
+      3,
+      1,
+      2
+    ],
+    "date": "2022-03-09",
+    "regime": "high_volatility",
+    "proxy_volatility": 0.10787801097062007,
+    "transaction_cost": 1.4402799705029757e-05
+  },
+  {
+    "weights": [
+      0.0959069607156902,
+      0.4637409617222096,
+      0.14775136222732455,
+      0.29260071533477566
+    ],
+    "risk_shares": [
+      0.11406338294218056,
+      0.4459896587023508,
+      0.20053318175500487,
+      0.23941377660046365
+    ],
+    "risk_budget_squared_error": 0.059449744408536474,
+    "annualized_volatility": 0.07071571236551516,
+    "turnover": 0.018447696125072494,
+    "solver_success": true,
+    "solver_iterations": 0,
+    "covariance_method": "LedoitWolf",
+    "cluster_order": [
+      0,
+      3,
+      1,
+      2
+    ],
+    "date": "2022-04-07",
+    "regime": "high_volatility",
+    "proxy_volatility": 0.12308326718385101,
+    "transaction_cost": 9.223848062536247e-06
+  },
+  {
+    "weights": [
+      0.08946130799295435,
+      0.46138131298722973,
+      0.15401993372106249,
+      0.2951374452987534
+    ],
+    "risk_shares": [
+      0.0985001765151503,
+      0.4473838504487672,
+      0.20783105603336038,
+      0.24628491700272212
+    ],
+    "risk_budget_squared_error": 0.06370460261086018,
+    "annualized_volatility": 0.07150879199767478,
+    "turnover": 0.041930550294852376,
+    "solver_success": true,
+    "solver_iterations": 0,
+    "covariance_method": "LedoitWolf",
+    "cluster_order": [
+      0,
+      3,
+      1,
+      2
+    ],
+    "date": "2022-05-06",
+    "regime": "high_volatility",
+    "proxy_volatility": 0.10403935337314395,
+    "transaction_cost": 2.096527514742619e-05
+  },
+  {
+    "weights": [
+      0.08841244924870668,
+      0.4813237634566827,
+      0.13687302550339153,
+      0.2933907617912191
+    ],
+    "risk_shares": [
+      0.08987648474021816,
+      0.4926690021877035,
+      0.1693570241143693,
+      0.24809748895770914
+    ],
+    "risk_budget_squared_error": 0.0910346938698817,
+    "annualized_volatility": 0.07296253126711755,
+    "turnover": 0.08836507235583706,
+    "solver_success": true,
+    "solver_iterations": 0,
+    "covariance_method": "LedoitWolf",
+    "cluster_order": [
+      0,
+      3,
+      1,
+      2
+    ],
+    "date": "2022-06-06",
+    "regime": "calm",
+    "proxy_volatility": 0.08621595505829878,
+    "transaction_cost": 4.418253617791853e-05
+  },
+  {
+    "weights": [
+      0.0766390702589523,
+      0.5050864635625317,
+      0.13249476307442126,
+      0.2857797031040948
+    ],
+    "risk_shares": [
+      0.08172248488327409,
+      0.5092817877000695,
+      0.16691121403776546,
+      0.24208451337889114
+    ],
+    "risk_budget_squared_error": 0.1025107688079308,
+    "annualized_volatility": 0.07685153024446939,
+    "turnover": 0.05354526154577113,
+    "solver_success": true,
+    "solver_iterations": 0,
+    "covariance_method": "LedoitWolf",
+    "cluster_order": [
+      0,
+      3,
+      1,
+      2
+    ],
+    "date": "2022-07-05",
+    "regime": "high_volatility",
+    "proxy_volatility": 0.16287291849781624,
+    "transaction_cost": 2.6772630772885564e-05
+  },
+  {
+    "weights": [
+      0.0761196371105383,
+      0.49413041949569997,
+      0.13975879204158595,
+      0.28999115135217574
+    ],
+    "risk_shares": [
+      0.08457249217054429,
+      0.4982440220823846,
+      0.17056671496413417,
+      0.24661677078293687
+    ],
+    "risk_budget_squared_error": 0.09531244785782839,
+    "annualized_volatility": 0.07949435001353344,
+    "turnover": 0.038070560256931216,
+    "solver_success": true,
+    "solver_iterations": 0,
+    "covariance_method": "LedoitWolf",
+    "cluster_order": [
+      0,
+      3,
+      1,
+      2
+    ],
+    "date": "2022-08-03",
+    "regime": "high_volatility",
+    "proxy_volatility": 0.11440195587098055,
+    "transaction_cost": 1.903528012846561e-05
+  },
+  {
+    "weights": [
+      0.0722568898527309,
+      0.5032005729022422,
+      0.1367533135170962,
+      0.28778922372793075
+    ],
+    "risk_shares": [
+      0.0703213051141199,
+      0.5091397082574292,
+      0.16504296170368726,
+      0.25549602492476364
+    ],
+    "risk_budget_squared_error": 0.10668572643769347,
+    "annualized_volatility": 0.0824383727928192,
+    "turnover": 0.04325569599133419,
+    "solver_success": true,
+    "solver_iterations": 0,
+    "covariance_method": "LedoitWolf",
+    "cluster_order": [
+      0,
+      3,
+      1,
+      2
+    ],
+    "date": "2022-09-01",
+    "regime": "high_volatility",
+    "proxy_volatility": 0.12326183900505996,
+    "transaction_cost": 2.1627847995667096e-05
+  },
+  {
+    "weights": [
+      0.06824095874317178,
+      0.49808634698036197,
+      0.13402103532895088,
+      0.29965165894751533
+    ],
+    "risk_shares": [
+      0.07667920310309176,
+      0.4999579488393941,
+      0.16258654270873166,
+      0.2607763053487826
+    ],
+    "risk_budget_squared_error": 0.10027631609755908,
+    "annualized_volatility": 0.08366739302096275,
+    "turnover": 0.05988673524452688,
+    "solver_success": true,
+    "solver_iterations": 0,
+    "covariance_method": "LedoitWolf",
+    "cluster_order": [
+      0,
+      3,
+      1,
+      2
+    ],
+    "date": "2022-09-30",
+    "regime": "high_volatility",
+    "proxy_volatility": 0.14595496734797933,
+    "transaction_cost": 2.994336762226344e-05
+  },
+  {
+    "weights": [
+      0.07075978854556346,
+      0.48632097809275826,
+      0.1361744825419626,
+      0.30674475081971575
+    ],
+    "risk_shares": [
+      0.07892202236522043,
+      0.49275919688415265,
+      0.1624026214154584,
+      0.26591615933516854
+    ],
+    "risk_budget_squared_error": 0.0961263269663109,
+    "annualized_volatility": 0.08517196312628239,
+    "turnover": 0.03810878758256693,
+    "solver_success": true,
+    "solver_iterations": 0,
+    "covariance_method": "LedoitWolf",
+    "cluster_order": [
+      0,
+      3,
+      1,
+      2
+    ],
+    "date": "2022-10-31",
+    "regime": "calm",
+    "proxy_volatility": 0.08127199173240394,
+    "transaction_cost": 1.9054393791283464e-05
+  },
+  {
+    "weights": [
+      0.07334430562362326,
+      0.46541767389876126,
+      0.14097759419506686,
+      0.3202604262825486
+    ],
+    "risk_shares": [
+      0.07413657168924107,
+      0.4730412424936832,
+      0.16935569405234766,
+      0.2834664917647281
+    ],
+    "risk_budget_squared_error": 0.08829885142315659,
+    "annualized_volatility": 0.08627669752638253,
+    "turnover": 0.11301695455537583,
+    "solver_success": true,
+    "solver_iterations": 0,
+    "covariance_method": "LedoitWolf",
+    "cluster_order": [
+      0,
+      3,
+      1,
+      2
+    ],
+    "date": "2022-11-29",
+    "regime": "high_volatility",
+    "proxy_volatility": 0.10716329591798783,
+    "transaction_cost": 5.650847727768792e-05
+  },
+  {
+    "weights": [
+      0.06928788820410216,
+      0.49494828932581136,
+      0.13261470010264378,
+      0.3031491223674428
+    ],
+    "risk_shares": [
+      0.06691091716943275,
+      0.5009648131842587,
+      0.1640727250148251,
+      0.2680515446314834
+    ],
+    "risk_budget_squared_error": 0.10421430455830846,
+    "annualized_volatility": 0.08627602870167435,
+    "turnover": 0.06205182882029968,
+    "solver_success": true,
+    "solver_iterations": 0,
+    "covariance_method": "LedoitWolf",
+    "cluster_order": [
+      0,
+      3,
+      1,
+      2
+    ],
+    "date": "2022-12-28",
+    "regime": "high_volatility",
+    "proxy_volatility": 0.13928662693692342,
+    "transaction_cost": 3.102591441014984e-05
+  },
+  {
+    "weights": [
+      0.06989175785166743,
+      0.5006195406438828,
+      0.13247040534392104,
+      0.2970182961605287
+    ],
+    "risk_shares": [
+      0.06906701627985923,
+      0.508719545030357,
+      0.16302630706289944,
+      0.2591871316268843
+    ],
+    "risk_budget_squared_error": 0.1073213742292344,
+    "annualized_volatility": 0.08552709564651607,
+    "turnover": 0.015127690789364726,
+    "solver_success": true,
+    "solver_iterations": 0,
+    "covariance_method": "LedoitWolf",
+    "cluster_order": [
+      0,
+      3,
+      1,
+      2
+    ],
+    "date": "2023-01-26",
+    "regime": "high_volatility",
+    "proxy_volatility": 0.11685474913887224,
+    "transaction_cost": 7.5638453946823626e-06
+  },
+  {
+    "weights": [
+      0.07240754941801289,
+      0.49256578120566036,
+      0.13032861249595132,
+      0.30469805688037543
+    ],
+    "risk_shares": [
+      0.0740894197877919,
+      0.4982740094582009,
+      0.15718532080998776,
+      0.2704512499440195
+    ],
+    "risk_budget_squared_error": 0.10161733430046416,
+    "annualized_volatility": 0.08686132471053556,
+    "turnover": 0.02770712029803922,
+    "solver_success": true,
+    "solver_iterations": 0,
+    "covariance_method": "LedoitWolf",
+    "cluster_order": [
+      0,
+      3,
+      1,
+      2
+    ],
+    "date": "2023-02-24",
+    "regime": "calm",
+    "proxy_volatility": 0.08343919025705634,
+    "transaction_cost": 1.3853560149019612e-05
+  },
+  {
+    "weights": [
+      0.06717019646820556,
+      0.488250295825319,
+      0.12725895731888012,
+      0.3173205503875953
+    ],
+    "risk_shares": [
+      0.06575384023701619,
+      0.5162456081239896,
+      0.1335141401156646,
+      0.28448641152332965
+    ],
+    "risk_budget_squared_error": 0.11959163936546943,
+    "annualized_volatility": 0.08595644540911165,
+    "turnover": 0.03908689954229298,
+    "solver_success": true,
+    "solver_iterations": 0,
+    "covariance_method": "LedoitWolf",
+    "cluster_order": [
+      0,
+      3,
+      1,
+      2
+    ],
+    "date": "2023-03-27",
+    "regime": "high_volatility",
+    "proxy_volatility": 0.1156950230851495,
+    "transaction_cost": 1.9543449771146494e-05
+  },
+  {
+    "weights": [
+      0.07342043505038061,
+      0.47961844811604437,
+      0.12943902000019689,
+      0.31752209683337806
+    ],
+    "risk_shares": [
+      0.08326625900450081,
+      0.5031938496696731,
+      0.131786205319055,
+      0.281753686006771
+    ],
+    "risk_budget_squared_error": 0.10689006372478846,
+    "annualized_volatility": 0.08857155270026082,
+    "turnover": 0.052146464912631085,
+    "solver_success": true,
+    "solver_iterations": 0,
+    "covariance_method": "LedoitWolf",
+    "cluster_order": [
+      0,
+      3,
+      1,
+      2
+    ],
+    "date": "2023-04-25",
+    "regime": "high_volatility",
+    "proxy_volatility": 0.10210806164999713,
+    "transaction_cost": 2.607323245631554e-05
+  },
+  {
+    "weights": [
+      0.07118051276263902,
+      0.45102680357391,
+      0.13954567603317633,
+      0.33824700763027454
+    ],
+    "risk_shares": [
+      0.08615431352621236,
+      0.45981934334997,
+      0.15557878531617075,
+      0.2984475578076469
+    ],
+    "risk_budget_squared_error": 0.08213209745977437,
+    "annualized_volatility": 0.08768739255785851,
+    "turnover": 0.10441104216691678,
+    "solver_success": true,
+    "solver_iterations": 0,
+    "covariance_method": "LedoitWolf",
+    "cluster_order": [
+      0,
+      3,
+      1,
+      2
+    ],
+    "date": "2023-05-24",
+    "regime": "high_volatility",
+    "proxy_volatility": 0.10142803248489564,
+    "transaction_cost": 5.22055210834584e-05
+  },
+  {
+    "weights": [
+      0.0748358307025593,
+      0.4440421903618481,
+      0.14817880535448102,
+      0.33294317358111153
+    ],
+    "risk_shares": [
+      0.08281582840343639,
+      0.46917365394572413,
+      0.1525170405709281,
+      0.2954934770799116
+    ],
+    "risk_budget_squared_error": 0.08756022165221979,
+    "annualized_volatility": 0.0866469834128544,
+    "turnover": 0.049715230252383544,
+    "solver_success": true,
+    "solver_iterations": 0,
+    "covariance_method": "LedoitWolf",
+    "cluster_order": [
+      0,
+      3,
+      1,
+      2
+    ],
+    "date": "2023-06-22",
+    "regime": "high_volatility",
+    "proxy_volatility": 0.10769185107989784,
+    "transaction_cost": 2.4857615126191773e-05
+  },
+  {
+    "weights": [
+      0.07783513610208431,
+      0.4850353064078558,
+      0.1465971615099984,
+      0.2905323959800614
+    ],
+    "risk_shares": [
+      0.07867532017419226,
+      0.5205994945736706,
+      0.1468816790258489,
+      0.2538435062262881
+    ],
+    "risk_budget_squared_error": 0.11322439304158109,
+    "annualized_volatility": 0.09131299826047316,
+    "turnover": 0.10329557807905033,
+    "solver_success": true,
+    "solver_iterations": 0,
+    "covariance_method": "LedoitWolf",
+    "cluster_order": [
+      0,
+      3,
+      1,
+      2
+    ],
+    "date": "2023-07-21",
+    "regime": "high_volatility",
+    "proxy_volatility": 0.14327404555338957,
+    "transaction_cost": 5.164778903952517e-05
+  },
+  {
+    "weights": [
+      0.08414269072069677,
+      0.4830284169513756,
+      0.14689042217874,
+      0.2859384701491876
+    ],
+    "risk_shares": [
+      0.09680833211681289,
+      0.5072020831430948,
+      0.15241949574759855,
+      0.24357008899249386
+    ],
+    "risk_budget_squared_error": 0.09918389724769752,
+    "annualized_volatility": 0.09356278673240118,
+    "turnover": 0.09163037804866489,
+    "solver_success": true,
+    "solver_iterations": 0,
+    "covariance_method": "LedoitWolf",
+    "cluster_order": [
+      0,
+      3,
+      1,
+      2
+    ],
+    "date": "2023-08-21",
+    "regime": "high_volatility",
+    "proxy_volatility": 0.13924568816277158,
+    "transaction_cost": 4.581518902433245e-05
+  },
+  {
+    "weights": [
+      0.08482721650086972,
+      0.49280910084349705,
+      0.14898096962750565,
+      0.2733827130281276
+    ],
+    "risk_shares": [
+      0.09192036269126384,
+      0.5234499002317504,
+      0.1469851744855358,
+      0.23764456259144992
+    ],
+    "risk_budget_squared_error": 0.11052873077774794,
+    "annualized_volatility": 0.09435453254094099,
+    "turnover": 0.019908344115791995,
+    "solver_success": true,
+    "solver_iterations": 0,
+    "covariance_method": "LedoitWolf",
+    "cluster_order": [
+      0,
+      3,
+      1,
+      2
+    ],
+    "date": "2023-09-19",
+    "regime": "high_volatility",
+    "proxy_volatility": 0.14149230623020945,
+    "transaction_cost": 9.954172057895998e-06
+  }
+]

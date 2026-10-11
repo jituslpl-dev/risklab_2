@@ -1,0 +1,25 @@
+name: Tests and reproducible risk experiments
+on: [push, pull_request]
+jobs:
+  test:
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [ubuntu-latest, windows-latest]
+    runs-on: ${{ matrix.os }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install -r requirements-lock.txt -r requirements-dev.txt
+      - run: pip install --no-deps -e .
+      - run: ruff check src tests scripts
+      - run: ruff format --check src tests scripts
+      - run: python -m pytest -q --cov=risklab --cov-report=term-missing
+      - run: python -m risklab.cli --rows 420 --window 126 --draws 2000 --output reports/ci
+      - run: python -m risklab.enhanced_cli --rows 420 --window 126 --draws 2000 --output reports/ci-enhanced
+      - uses: actions/upload-artifact@v4
+        with:
+          name: experiment-${{ matrix.os }}
+          path: reports/ci*/

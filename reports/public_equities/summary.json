@@ -1,0 +1,244 @@
+{
+  "source": {
+    "type": "external CSV",
+    "sha256": "57b2c3e350433054ffd0ac7a0f058818b64e310fe6ff35a54122d9e229c7a5bd",
+    "input_prices": true,
+    "metadata": {
+      "url": "https://raw.githubusercontent.com/plotly/datasets/master/stockdata.csv",
+      "raw_sha256": "60bf505fec160ce05ba959382adee32ea6e53ce14fe22886db27c58fe1b0d26b",
+      "note": "Historical public Plotly sample; adjustment/dividend provenance not independently verified. Equity-only; no cross-asset validation."
+    }
+  },
+  "rows": 2305,
+  "start": "2007-01-04",
+  "end": "2016-03-01",
+  "asset_classes": {
+    "MSFT": "equity",
+    "IBM": "equity",
+    "SBUX": "equity",
+    "AAPL": "equity"
+  },
+  "baseline_weights": {
+    "MSFT": 0.25,
+    "IBM": 0.25,
+    "SBUX": 0.25,
+    "AAPL": 0.25
+  },
+  "confidence": 0.99,
+  "risk_estimates": {
+    "historical": {
+      "method": "historical",
+      "confidence": 0.99,
+      "horizon_days": 1,
+      "var": 0.03517291070334261,
+      "expected_shortfall": 0.04070680578204484,
+      "observations": 252
+    },
+    "parametric": {
+      "method": "gaussian_parametric",
+      "confidence": 0.99,
+      "horizon_days": 1,
+      "var": 0.030606607053637845,
+      "expected_shortfall": 0.03509695860894344,
+      "observations": 252
+    },
+    "monte_carlo": {
+      "method": "monte_carlo_normal",
+      "confidence": 0.99,
+      "horizon_days": 1,
+      "var": 0.03028166307014107,
+      "expected_shortfall": 0.03508746746721311,
+      "observations": 252
+    }
+  },
+  "student_t_monte_carlo": {
+    "method": "monte_carlo_student_t",
+    "confidence": 0.99,
+    "horizon_days": 1,
+    "var": 0.03588983408090886,
+    "expected_shortfall": 0.046139882434875996,
+    "observations": 252
+  },
+  "portfolio_statistics": {
+    "annualized_volatility": 0.23382345297414736,
+    "ewma_annualized_volatility": 0.24928090244024323,
+    "annualized_geometric_return": 0.16166166705622032,
+    "maximum_drawdown": -0.5491894440162796,
+    "terminal_wealth": 3.93796882704582
+  },
+  "pca_attribution": {
+    "portfolio_daily_variance": 0.00021695796492362412,
+    "component_variances": [
+      0.00021577339970091779,
+      6.062855874553868e-10,
+      6.621199412950007e-07,
+      5.218389958238876e-07
+    ],
+    "component_portfolio_variance_shares": [
+      0.994540116454709,
+      2.7944841189343657e-06,
+      0.003051835140176058,
+      0.002405253920996129
+    ],
+    "pca_explained_variance_ratios": [
+      0.6165419674862443,
+      0.17774645524368402,
+      0.13226472154637817,
+      0.07344685572369357
+    ],
+    "loadings": [
+      [
+        0.4692212208681144,
+        0.35116149821572173,
+        0.5738515671175093,
+        0.5720239741258267
+      ],
+      [
+        -0.029760256880443977,
+        -0.007763280325634091,
+        -0.6909055015502168,
+        0.7222905554668694
+      ],
+      [
+        0.7920865782269646,
+        0.2368710857743871,
+        -0.42369342909335256,
+        -0.37010109356752546
+      ],
+      [
+        -0.3892873303745516,
+        0.9058241674704524,
+        -0.11759185765833569,
+        -0.11878597159925247
+      ]
+    ],
+    "asset_variance_contributions": {
+      "MSFT": 5.299944726333358e-05,
+      "IBM": 4.089071900081372e-05,
+      "SBUX": 6.162963229396906e-05,
+      "AAPL": 6.143816636550779e-05
+    },
+    "asset_daily_volatility_contributions": {
+      "MSFT": 0.0035981854334731916,
+      "IBM": 0.0027761117722969815,
+      "SBUX": 0.00418409731876363,
+      "AAPL": 0.004171098505561434
+    }
+  },
+  "stress_tests": [
+    {
+      "scenario": "equity_crash",
+      "portfolio_return": -0.25,
+      "pnl": -250000.0,
+      "asset_return_contributions": {
+        "MSFT": -0.0625,
+        "IBM": -0.0625,
+        "SBUX": -0.0625,
+        "AAPL": -0.0625
+      }
+    },
+    {
+      "scenario": "rates_inflation",
+      "portfolio_return": -0.12,
+      "pnl": -120000.0,
+      "asset_return_contributions": {
+        "MSFT": -0.03,
+        "IBM": -0.03,
+        "SBUX": -0.03,
+        "AAPL": -0.03
+      }
+    },
+    {
+      "scenario": "liquidity_freeze",
+      "portfolio_return": -0.18,
+      "pnl": -180000.0,
+      "asset_return_contributions": {
+        "MSFT": -0.045,
+        "IBM": -0.045,
+        "SBUX": -0.045,
+        "AAPL": -0.045
+      }
+    },
+    {
+      "scenario": "stagflation",
+      "portfolio_return": -0.2,
+      "pnl": -200000.0,
+      "asset_return_contributions": {
+        "MSFT": -0.05,
+        "IBM": -0.05,
+        "SBUX": -0.05,
+        "AAPL": -0.05
+      }
+    }
+  ],
+  "var_backtests": {
+    "historical": {
+      "observations": 2053,
+      "exceptions": 25,
+      "expected_exceptions": 20.53000000000002,
+      "exception_rate": 0.012177301509985387,
+      "kupiec_lr": 0.9192677529904358,
+      "kupiec_pvalue": 0.33766730989142624,
+      "exact_binomial_pvalue": 0.3164419650489509,
+      "christoffersen_independence_pvalue": 0.29733230668196026,
+      "conditional_coverage_pvalue": 0.3668895992506114,
+      "warning": null
+    },
+    "parametric": {
+      "observations": 2053,
+      "exceptions": 45,
+      "expected_exceptions": 20.53000000000002,
+      "exception_rate": 0.021919142717973697,
+      "kupiec_lr": 21.985570265642764,
+      "kupiec_pvalue": 2.747080455086519e-06,
+      "exact_binomial_pvalue": 2.042792482331969e-06,
+      "christoffersen_independence_pvalue": 0.9710404589541136,
+      "conditional_coverage_pvalue": 1.6811555168541786e-05,
+      "warning": null
+    },
+    "monte_carlo": {
+      "observations": 2053,
+      "exceptions": 48,
+      "expected_exceptions": 20.53000000000002,
+      "exception_rate": 0.023380418899171942,
+      "kupiec_lr": 26.967079754898748,
+      "kupiec_pvalue": 2.0695030481458335e-07,
+      "exact_binomial_pvalue": 1.6066277070995808e-07,
+      "christoffersen_independence_pvalue": 0.9215266381916807,
+      "conditional_coverage_pvalue": 1.3869658012848912e-06,
+      "warning": null
+    }
+  },
+  "risk_parity": {
+    "rebalances": 98,
+    "total_traded_notional_multiple": 4.942176790202408,
+    "net_return_statistics": {
+      "annualized_volatility": 0.2313681440904431,
+      "ewma_annualized_volatility": 0.24652627879349878,
+      "annualized_geometric_return": 0.15420905519894856,
+      "maximum_drawdown": -0.483296271333845,
+      "terminal_wealth": 3.2167755607322563
+    },
+    "equal_weight_net_statistics": {
+      "annualized_volatility": 0.23668113482562134,
+      "ewma_annualized_volatility": 0.24960944327711318,
+      "annualized_geometric_return": 0.16302743861739244,
+      "maximum_drawdown": -0.49076044415757425,
+      "terminal_wealth": 3.4225512435366356
+    },
+    "mean_risk_budget_error": 2.749344131579641e-15,
+    "regime_rebalance_counts": {
+      "high_volatility": 54,
+      "crisis": 35,
+      "calm": 9
+    }
+  },
+  "limitations": [
+    "One-day backtests; historical tail estimates have sparse observations at 99%.",
+    "Static linear P&L risk models; Gaussian assumptions can fail in fat-tailed markets.",
+    "Stress shocks are hypothetical asset-class return shocks, not derivative repricing.",
+    "Risk parity minimizes risk-budget error under constraints; exact parity is not guaranteed.",
+    "Regime labels use trailing data and fixed thresholds, not future returns.",
+    "Research analysis, not a production capital calculation or investment recommendation."
+  ]
+}

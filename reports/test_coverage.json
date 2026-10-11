@@ -1,0 +1,65 @@
+{
+  "tests_passed": 22,
+  "coverage": {
+    "covered_lines": 666,
+    "num_statements": 755,
+    "percent_covered": 88.21192052980132,
+    "percent_covered_display": "88",
+    "missing_lines": 89,
+    "excluded_lines": 3,
+    "percent_statements_covered": 88.21192052980132,
+    "percent_statements_covered_display": "88"
+  },
+  "new_modules": {
+    "src\\risklab\\advanced.py": {
+      "covered_lines": 74,
+      "num_statements": 80,
+      "percent_covered": 92.5,
+      "percent_covered_display": "92",
+      "missing_lines": 6,
+      "excluded_lines": 0,
+      "percent_statements_covered": 92.5,
+      "percent_statements_covered_display": "92"
+    },
+    "src\\risklab\\diagnostics.py": {
+      "covered_lines": 19,
+      "num_statements": 22,
+      "percent_covered": 86.36363636363636,
+      "percent_covered_display": "86",
+      "missing_lines": 3,
+      "excluded_lines": 0,
+      "percent_statements_covered": 86.36363636363636,
+      "percent_statements_covered_display": "86"
+    },
+    "src\\risklab\\enhanced_cli.py": {
+      "covered_lines": 63,
+      "num_statements": 90,
+      "percent_covered": 70.0,
+      "percent_covered_display": "70",
+      "missing_lines": 27,
+      "excluded_lines": 0,
+      "percent_statements_covered": 70.0,
+      "percent_statements_covered_display": "70"
+    },
+    "src\\risklab\\hierarchical.py": {
+      "covered_lines": 40,
+      "num_statements": 42,
+      "percent_covered": 95.23809523809524,
+      "percent_covered_display": "95",
+      "missing_lines": 2,
+      "excluded_lines": 0,
+      "percent_statements_covered": 95.23809523809524,
+      "percent_statements_covered_display": "95"
+    },
+    "src\\risklab\\tail_optimization.py": {
+      "covered_lines": 55,
+      "num_statements": 62,
+      "percent_covered": 88.70967741935483,
+      "percent_covered_display": "89",
+      "missing_lines": 7,
+      "excluded_lines": 0,
+      "percent_statements_covered": 88.70967741935483,
+      "percent_statements_covered_display": "89"
+    }
+  }
+}

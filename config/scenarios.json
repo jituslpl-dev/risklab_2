@@ -1,0 +1,6 @@
+{
+  "equity_crash": {"equity": -0.25, "bond": 0.04, "commodity": 0.08, "fx": -0.03},
+  "rates_inflation": {"equity": -0.12, "bond": -0.09, "commodity": 0.10, "fx": 0.05},
+  "liquidity_freeze": {"equity": -0.18, "bond": -0.06, "commodity": -0.08, "fx": -0.04},
+  "stagflation": {"equity": -0.20, "bond": -0.12, "commodity": 0.15, "fx": 0.08}
+}
